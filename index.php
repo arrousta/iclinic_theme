@@ -85,6 +85,7 @@
         </section>
 
         <section>
+
             <div class="flex-container wrap" id="section4_flex-item1">
                 <div>
                     <button>
@@ -248,6 +249,70 @@
                 </a>
             </div>
 
+        </section>
+
+        <section>
+
+            <div class="row text-center" id="section6">
+                <h2>
+                     پر فروش‌ترین کالاهای آی‌کلینیک
+                </h2>
+            </div>
+
+            
+            <div class="flex-container wrap" id="section6_flex-item1">
+                <a href="#">
+                    <div id="right-flex">
+                        <div class="flex-item">
+                                <div class="flex-container" id="inner_flex6">
+                                    <div class="flex-item_inner1-6">
+                                        <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Apple-MacBook-Pro-16-2021-Gray 1.png" alt="airp">
+                                    </div>
+                                    <div class="flex-item_inner2-6">
+                                        <p id="p16">مک بوک پرو 16 اینچ M1 Pro ظرفیت 1/16 ترابایت مدل 2021</p>
+                                        <p id="p26">۸۲،۰۰۰،۰۰۰ تومان</p>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div id="left-top-flex">
+                        <div class="flex-item">
+                            <div class="flex-container" id="inner_flex6">
+                                <div class="flex-item_inner3-6">
+                                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Apple-iPhone-13-Pro-2022-Family.png" alt="airp">
+                                </div>
+                                <div class="flex-item_inner4-6">
+                                    <p id="pltr1">آیفون ۱۳ پرو ظرفیت ۲۵۶ گیگ دوسیم کارت</p>
+                                    <p id="pltr2">49،6۰۰،۰۰۰ تومان</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div id="left-top-flex">
+                        <div class="flex-item">
+                            <div class="flex-container" id="inner_flex6">
+                                <div class="flex-item_inner3-6">
+                                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Apple-Watch-S-7-1.png" alt="airp">
+                                </div>
+                                <div class="flex-item_inner4-6">
+                                    <p id="pltr1">اپل واچ سری ۷ آبی با بند اسپرت سیلیکون آبیس بلو</p>
+                                    <p id="pltr2">49،6۰۰،۰۰۰ تومان</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                
+            </div>
+        
+            
         </section>
 
     </main>
