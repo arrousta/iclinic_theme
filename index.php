@@ -339,6 +339,40 @@
 
         </section>
 
+        <section>
+            <div class="container" id="section7">
+                <div class="row" id="section7_row">
+                    <div class="col" >
+                        <a href="#">
+                            <div id="section7_flex">
+                                <div class="flex-item">
+                                    <div class="flex-container" id="inner_flex_7">
+                                        <div class="flex-item_inner1_7">
+                                            <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/airpods_pro_right__fm0wwisa76em_large_2x.png" alt="airpods_pro_right" id="apr_img">
+                                            <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/airpods_pro_left__bvanpj0ujnf6_large_2x.png" alt="airpods_pro_left">
+
+                                        </div>
+                                        <div class="flex-item_inner2_7">
+                                            <p id="p_title1">لذت یک مکالمه باورنکردنی</p>
+                                            <div class="flex-container" id="inner_flex_7_img">
+                                                <div>
+                                                    <p id="p_title2">AirPods Pro</p>
+                                                </div>
+                                                <div>
+                                                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Frame45.png" alt="prc">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
     </main>
 </div>
 

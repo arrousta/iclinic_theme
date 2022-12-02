@@ -642,3 +642,73 @@
     display: flex;
     margin-top: 80px;
 }
+
+/* ----------------------------- section7 -------------------------------------- */
+
+#section7_row {
+    background-color: #000000;
+    margin-top: 72px;
+    width: 1320px;
+    height: 242px;
+    border-radius: 16px;
+}
+
+#section7_flex .flex-item{
+    text-align: center;
+}
+
+#inner_flex_7 {
+    list-style: none;
+    flex-direction: row;
+    -ms-box-orient: horizontal;
+    justify-content: center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    margin-top: 30px;
+}
+
+#section7_row a{
+    text-decoration: none;
+}
+
+#p_title1{
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 950;
+    font-size: 40px;
+    line-height: 62px;
+    text-align: right;
+    color: #FFFFFF;
+    width: 415px;
+    height: 62px;
+}
+
+#p_title2{
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 62px;
+    text-align: right;
+    color: #FFFFFF;
+    width: 201px;
+    height: 62px;
+}
+
+#apr_img{
+    margin-left: 7px;
+}
+
+.flex-item_inner2_7{
+    margin-top: 29px;
+    margin-right: 98px;
+}
+
+#inner_flex_7_img{
+    flex-direction: row;
+    display: flex;
+}
