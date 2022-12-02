@@ -260,7 +260,7 @@
             </div>
 
             
-            <div class="flex-container wrap" id="section6_flex-item1">
+            <!-- <div class="flex-container wrap" id="section6_flex-item1">
                 <a href="#">
                     <div id="right-flex">
                         <div class="flex-item">
@@ -307,12 +307,89 @@
                             </div>
                         </div>
                     </div>
-                </a>
+                </a>  
+            </div> -->
 
-                
-            </div>
-        
+
             
+            <div class="container" id="section6_items">
+                <div class="row" id="section6_items_row_main">
+                    <div class="col" id="section6_items_rcol">
+                        <a href="#">
+                            <div id="right-flex">
+                                <div class="flex-item">
+                                        <div class="flex-container" id="inner_flex6">
+                                            <div class="flex-item_inner1-6">
+                                                <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Apple-MacBook-Pro-16-2021-Gray 1.png" alt="airp">
+                                            </div>
+                                            <div class="flex-item_inner2-6">
+                                                <p id="p_title">مک بوک پرو 16 اینچ M1 Pro ظرفیت 1/16 ترابایت مدل 2021</p>
+                                                <p id="p_price">۸۲،۰۰۰،۰۰۰ تومان</p>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col" id="section6_items_lcol">
+                        <div class="row" id="lcol-row1">
+                            <div class="col" id="lcol-col1">
+                                <a href="#">
+                                    <div id="left-top-flex">
+                                        <div class="flex-item">
+                                            <div class="flex-container" id="inner_flex6">
+                                                <div class="flex-item_inner3-6">
+                                                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Apple-iPhone-13-Pro-2022-Family.png" alt="airp">
+                                                </div>
+                                                <div class="flex-item_inner4-6">
+                                                    <p id="p_title">آیفون ۱۳ پرو ظرفیت ۲۵۶ گیگ دوسیم کارت</p>
+                                                    <p id="p_price">49،6۰۰،۰۰۰ تومان</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col" id="lcol-col2">
+                                <a href="#">
+                                    <div id="left-top-flex">
+                                        <div class="flex-item">
+                                            <div class="flex-container" id="inner_flex6">
+                                                <div class="flex-item_inner3-6">
+                                                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Apple-Watch-S-7-1.png" alt="airp">
+                                                </div>
+                                                <div class="flex-item_inner4-6">
+                                                    <p id="p_title">اپل واچ سری ۷ آبی با بند اسپرت سیلیکون آبیس بلو</p>
+                                                    <p id="p_price">49،6۰۰،۰۰۰ تومان</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row" id="lcol-row2">
+                            <a href="#">
+                                    <div id="left-bottom-flex">
+                                        <div class="flex-item">
+                                            <div class="flex-container" id="inner_flex6-2">
+                                                <div class="flex-item_inner5-6">
+                                                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/airpods-2nd-charging-case-1.png" alt="airp">
+                                                </div>
+                                                <div class="flex-item_inner6-6">
+                                                    <p id="p_title">ایرپاد هندزفری بلوتوث نسل 2 اپل</p>
+                                                    <p id="p_price">49،6۰۰،۰۰۰ تومان</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
         </section>
 
     </main>

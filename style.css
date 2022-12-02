@@ -481,29 +481,80 @@
     font-weight: 800;
     font-size: 32px;
     line-height: 50px;
-    /* identical to box height */
     letter-spacing: 0.1px;
-    /* Color/Gray/Gray 900 */
     color: #212121;
 }
 
-#section6_flex-item1 {
-    padding: 0;
-    margin-top:50px;
-    margin-bottom: 100px;
-    margin-left: 204px;
-    margin-right: 204px;
-    list-style: none;
-    /* border: 1px solid silver; */
-    -ms-box-orient: horizontal;
-    justify-content: center;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -moz-flex;
-    display: -webkit-flex;
-    display: flex;
+#section6_items{
+    margin-top: 48px;
+    margin-bottom: 20px;
 }
+
+#section6_items_row_main{
+    width: 1320px;
+    height: 648px;
+    display: flex;
+    text-align: center;
+}
+
+#section6_items_rcol{
+    width: 648px;
+    margin-left: 32px;
+}
+
+#section6_items a{
+    text-decoration: none;
+}
+
+#section6_items #p_title{
+    padding: 16px 40px 16px 40px;
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #000000;
+}
+
+#section6_items #p_price{
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    color: #000000;
+}
+
+#section6_items_lcol{
+    width: 648px;
+    height: 648px;
+}
+
+#section6_items_lcol .row{
+    height: 308px;
+}
+
+#lcol-col1{
+    width: 308px;
+    height: 308px;
+    margin-left: 12px;
+}
+
+#lcol-col2{
+    width: 308px;
+    height: 308px;
+    margin-right: 12px;
+}
+
+#lcol-row2{
+    width: 640px;
+    margin-top: 32px; 
+    /* background-color:green; */
+    /* margin-right: 5px; */
+}
+
 #right-flex .flex-item{
     border: 0.5px solid #f2f2f2;
     border-radius: 5px;
@@ -538,64 +589,8 @@
     height: 150px;
 }
 
-#section6_flex-item1 #p26{
-    padding: 10px 100px 0px 100px;
-
-    font-family: 'Yekan Bakh';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 25px;
-    text-align: center;
-    /* Color/Gray/Gray 800 */
-    color: #424242;
-}
-
-#section6_flex-item1 a{
-    text-decoration: none;
-}
-#section6_flex-item1 #p16{
-    padding: 10px 100px 0px 100px;
-
-    font-family: 'Yekan Bakh';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 22px;
-    text-align: center;
-    /* Color/Gray/Gray 800 */
-    color: #424242;
-}
-
-#right-flex {
-    margin-left: 32px;
-    margin-bottom: 32px;
-}
-
 #right-flex img{
     padding: 40px;
-}
-
-#right-flex #p16{
-    font-family: 'Yekan Bakh';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 20px;
-    /* identical to box height, or 100% */
-    letter-spacing: 0.1px;
-    color: #000000;
-}
-
-#right-flex #p26 {
-    font-family: 'Yekan Bakh';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 20px;
-    /* identical to box height, or 100% */
-    letter-spacing: 0.1px;
-    color: #000000;
 }
 
 #left-top-flex .flex-item{
@@ -610,25 +605,40 @@
     align-items: center;
 }
 
-#left-top-flex #pltr1{
-    padding: 16px 40px 16px 40px;
-    font-family: 'Yekan Bakh';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 31px;
-    text-align: center;
-    letter-spacing: 0.1px;
-    color: #000000;
+#inner_flex6-2 {
+    list-style: none;
+    flex-direction: row;
+    -ms-box-orient: horizontal;
+    justify-content: end;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
 }
 
-#left-top-flex #pltr2{
-    font-family: 'Yekan Bakh';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 20px;
-    /* identical to box height, or 100% */
-    letter-spacing: 0.1px;
-    color: #000000;
+#left-bottom-flex .flex-item{
+    border: 0.5px solid #f2f2f2;
+    border-radius: 5px;
+    background-color: white;
+    padding: 0px;
+    width: 640px;
+    height: 308px;
+    margin: 0px 0px 16px 16px;
+    text-align: center;
+}
+
+#inner_flex6-2 {
+    list-style: none;
+    flex-direction: row;
+    -ms-box-orient: horizontal;
+    justify-content: space-around;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    margin-top: 80px;
 }
