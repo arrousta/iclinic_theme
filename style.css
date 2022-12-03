@@ -16,7 +16,7 @@
   }
 
 body {
-    background-color: #FAFAFA;
+    background-color: #FAFAFA !important;
 }
  
 /* ------------------ header Section : ---------------------------- */
@@ -124,7 +124,7 @@ body {
     color: #212121;
 }
 #copyright_footer{
-    background-color: white;
+    /* background-color: white; */
     margin-top: 10px;
     margin-left: 100px;
     margin-right: 100px;
@@ -246,6 +246,8 @@ body {
     border-color: #e6e3e3;
     border-width: 0.5px;
     border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.05);
 }
 
 #btn_flex{
@@ -302,7 +304,7 @@ body {
     color: #212121;
 }
 
-/* section 2 */
+/* -------------------------------------- section 2 ------------------------------------------*/
 
 #section2{
     overflow: hidden;
@@ -366,8 +368,38 @@ body {
     height: 50px;
 }
 
+/* -------------------------------- section 3 ---------------------------- */
+#search-form {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center; 
+}
 
-/*------------------------------- section 5 ----------------------------------------------*/
+#search_flex-container {
+    width: 1024px;
+    height: 64px;
+}
+
+#search_form_input{
+    box-shadow: 0px 2px 20px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    border: white;
+    padding: 15px ;
+}
+
+#search_form_input::placeholder{
+    padding-right: 30px;
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: right;
+    letter-spacing: 0.1px;
+    color: #BDBDBD;
+}
+
+/*------------------------------- section 4 ----------------------------------------------*/
 
 
 #section4_flex-item1,#section5_flex-item1 {
@@ -389,7 +421,7 @@ body {
 }
   
   
-#section4_flex-item1 button {
+#section4_flex-item1 button{
     border: 0.5px solid #e9e6e6;
     border-radius: 5px;
     background-color: white;
@@ -398,6 +430,11 @@ body {
     height: 247px;
     margin: 24px 12px 0px 12px;
     text-align: center;
+}
+
+#section4_flex-item1 div:hover  #s1btn{
+    box-shadow: 0px 10px 26px 7px rgba(0, 0, 0, 0.05);
+
 }
 
 #section4_flex-item1 button p{
@@ -411,6 +448,8 @@ body {
     letter-spacing: 0.1px;
     color: #000000;
 }
+
+/*------------------------------- section 5 ----------------------------------------------*/
 
 #section5_flex-item1 .flex-item{
     border: 0.5px solid #f2f2f2;
@@ -504,6 +543,10 @@ body {
 #section6_items_rcol{
     width: 648px;
     margin-left: 32px;
+}
+
+#right-flex:hover,#left-top-flex:hover,#left-bottom-flex:hover {
+    box-shadow: 0px 10px 26px 7px rgba(0, 0, 0, 0.05);
 }
 
 #section6_items a{
@@ -761,6 +804,7 @@ body {
     text-align: right;
     align-items: center;
     margin-left: 12px;
+    margin-top: 12px;
 }
 
 #section9_flex-item2{
@@ -774,6 +818,8 @@ body {
     align-items: center;
     margin-left: 12px;
     margin-right: 12px;
+    margin-top: 12px;
+
 }
 
 #section9_flex-item3{
@@ -786,6 +832,8 @@ body {
     text-align: right;
     align-items: center;
     margin-right: 12px;
+    margin-top: 12px;
+
 }
 
 #section9_flex_container h6{
@@ -874,3 +922,15 @@ body {
     text-decoration: none;
     color: #047857;
 }
+
+/* ---------------------------------- section 10 ---------------------------------- */
+#section10{
+    margin-top: 160px;
+    margin-bottom: 160px;
+    justify-content: center;
+}
+
+.s10_flex_item{
+    padding: 20px 30px 20px 35px;
+}
+

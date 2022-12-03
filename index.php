@@ -84,41 +84,51 @@
 
         </section>
 
+        <section id="section3">
+            <div id="search-form">
+                <div class="flex-container" id="search_flex-container">
+                    <div class="flex_item_search">
+                        <?php get_search_form()  ?>
+                    </div>
+                </div>
+            </div>
+        </section>
+            
         <section>
 
             <div class="flex-container wrap" id="section4_flex-item1">
-                <div>
-                    <button>
+                <div id="section1_div">
+                    <button id="s1btn">
                         <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/MN643.png" alt="iphone1">
                         <p>لوازم جانبی اپل</p>
                     </button>
                 </div>
                 <div>
-                    <button>
+                    <button id="s1btn">
                         <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/compare_mbp14_and_16__f2dhysusb5im_large_2x.png" alt="laptop1">
                         <p>دستگاه‌های‌مک</p>
                     </button>
                 </div>
                 <div>
-                    <button>
+                    <button id="s1btn">
                         <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/compare_iphone_13_pro__bpn3x8hs692a_large_2x.png" alt="iphon2">
                         <p>آیفون</p>
                     </button>
                 </div>
                 <div>
-                    <button>
+                    <button id="s1btn">
                         <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/compare_ipad_pro__erf9x8mw04sy_large_2x.png" alt="ipad">
                         <p>آی‌پد</p>
                     </button>
                 </div>
                 <div>
-                    <button>
+                    <button id="s1btn">
                         <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/compare_s7__dqi9jnwa4sq6_large_2x.png" alt="appw">
                         <p>اپل واچ</p>
                     </button>
                 </div>
                 <div>
-                    <button>
+                    <button id="s1btn">
                         <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/compare_airpods_pro__e9uzt0mzviem_large_2x.png" alt="airp">
                         <p>ایرپاد</p>
                     </button>
@@ -527,6 +537,73 @@
                 </div>
 
             </div>
+        </section>
+
+        <section>
+            <div class="flex-container wrap" id="section10" style="flex-direction: row;display: flex;">
+                <div class="s10_flex_item">
+                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Energizer_logo.png" alt="energizer">
+                </div>
+                <div class="s10_flex_item">
+                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Anker-logo.png" alt="Anker">
+                </div>
+                <div class="s10_flex_item">
+                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/SanDisk_Logo_2007.png" alt="SanDisk">
+                </div>
+                <div class="s10_flex_item">
+                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/1200px-Lexar.png" alt="Lexar">
+                </div>
+                <div class="s10_flex_item">
+                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/baseus.png" alt="baseus">
+                </div>
+                <div class="s10_flex_item">
+                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Anker-logo.png" alt="Anker">
+                </div>
+                <div class="s10_flex_item">
+                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/SanDisk_Logo_2007.png" alt="SanDisk">
+                </div>
+                <div class="s10_flex_item">
+                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Energizer_logo.png" alt="energizer">
+                </div>
+                <div class="s10_flex_item">
+                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/baseus.png" alt="baseus">
+                </div>
+                <div class="s10_flex_item">
+                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/1200px-Lexar.png" alt="Lexar">
+                </div>
+                <div class="s10_flex_item">
+                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Energizer_logo.png" alt="energizer">
+                </div>
+                <div class="s10_flex_item">
+                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Anker-logo.png" alt="Anker">
+                </div>
+                <div class="s10_flex_item">
+                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/SanDisk_Logo_2007.png" alt="SanDisk">
+                </div>
+                <div class="s10_flex_item">
+                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/1200px-Lexar.png" alt="Lexar">
+                </div>
+                <div class="s10_flex_item">
+                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/baseus.png" alt="baseus">
+                </div>
+                <div class="s10_flex_item">
+                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Anker-logo.png" alt="Anker">
+                </div>
+                <div class="s10_flex_item">
+                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/SanDisk_Logo_2007.png" alt="SanDisk">
+                </div>
+                <div class="s10_flex_item">
+                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Energizer_logo.png" alt="energizer">
+                </div>
+                <div class="s10_flex_item">
+                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/baseus.png" alt="baseus">
+                </div>
+                <div class="s10_flex_item">
+                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/1200px-Lexar.png" alt="Lexar">
+                </div>
+
+            </div>
+
         </section>
 
     </main>

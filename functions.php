@@ -4,7 +4,7 @@
 add_theme_support( 'title-tag' );
 add_theme_support( 'post-thumbnails' );
 add_theme_support( 'post-formats', ['aside', 'gallery', 'link', 'image', 'quote', 'status', 'video', 'audio', 'chat'] );
-add_theme_support( 'html5' );
+add_theme_support( 'html5',array('search-form') );
 add_theme_support( 'automatic-feed-links' );
 add_theme_support( 'custom-background' );
 add_theme_support( 'custom-header' );
@@ -43,5 +43,11 @@ function register_navwalker(){
 add_action( 'after_setup_theme', 'register_navwalker' );
 
 
-
+/**
+ * Add HTML5 theme support.
+ */
+function wpdocs_after_setup_theme() {
+	add_theme_support( 'html5', array( 'search-form' ) );
+}
+add_action( 'after_setup_theme', 'wpdocs_after_setup_theme' );
 ?>
