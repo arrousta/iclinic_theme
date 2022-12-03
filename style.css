@@ -15,6 +15,9 @@
     src: url(http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/fonts/Yekan-Bakh-Regular.ttf);
   }
 
+body {
+    background-color: #FAFAFA;
+}
  
 /* ------------------ header Section : ---------------------------- */
 #mainheader{
@@ -369,8 +372,8 @@
 
 #section4_flex-item1,#section5_flex-item1 {
     padding: 0;
-    margin-top:100px;
-    margin-bottom: 100px;
+    margin-top:32px;
+    margin-bottom: 0px;
     margin-left: 204px;
     margin-right: 204px;
     list-style: none;
@@ -476,6 +479,7 @@
 /*------------------------------ section 6 ----------------------------------*/
 
 #section6 h2{
+    margin-top: 72px;
     font-family: 'Yekan Bakh';
     font-style: normal;
     font-weight: 800;
@@ -711,4 +715,162 @@
 #inner_flex_7_img{
     flex-direction: row;
     display: flex;
+}
+
+/* -------------------------- section8 -------------------------- */
+
+#section8 h2{
+    margin-top: 72px;
+    margin-bottom: 16px;
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 50px;
+    letter-spacing: 0.1px;
+    color: #212121;
+}
+
+/* ----------------------- section9 ---------------------------- */
+
+#section9_flex_container{
+    padding: 0;
+    margin-top:96px;
+    margin-bottom: 0px;
+    margin-left: 204px;
+    margin-right: 204px;
+    list-style: none;
+    flex-direction: row;
+    -ms-box-orient: horizontal;
+    justify-content: center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+}
+
+#section9_flex-item1{
+    border: 0.5px solid #f2f2f2;
+    border-radius: 8px;
+    background-color: white;
+    padding: 0px;
+    width: 424px;
+    height: 485px;
+    text-align: right;
+    align-items: center;
+    margin-left: 12px;
+}
+
+#section9_flex-item2{
+    border: 0.5px solid #f2f2f2;
+    border-radius: 8px;
+    background-color: white;
+    padding: 0px;
+    width: 424px;
+    height: 485px;
+    text-align: right;
+    align-items: center;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+#section9_flex-item3{
+    border: 0.5px solid #f2f2f2;
+    border-radius: 8px;
+    background-color: white;
+    padding: 0px;
+    width: 424px;
+    height: 485px;
+    text-align: right;
+    align-items: center;
+    margin-right: 12px;
+}
+
+#section9_flex_container h6{
+    margin-top: 15px;
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: -0.04em;
+    color: #474747;
+}
+
+#section9_flex_container .s9pt{
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: justify;
+    color: #757575;
+}
+
+.flex-item-btm{
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 395px;
+    height: 164px;
+}
+
+.flex-item-btm p{
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.04em;
+    color: #757575;
+}
+
+.flex-item-btm a{
+    text-decoration: none;
+    /* margin-right: 300px; */
+}
+
+.flex-item-btm a p{
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.04em;
+    color: #757575;
+}
+
+.material-symbols-outlined {
+    font-size: 10px ;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 100,
+    'GRAD' -25,
+    'opsz' 20;
+}
+
+#more9 {
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.04em;
+    text-align: center;
+
+    margin: 40px;
+}
+#more9 a{
+    text-decoration: none;
+    color: #047857;
 }

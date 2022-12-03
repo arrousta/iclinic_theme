@@ -373,6 +373,162 @@
 
         </section>
 
+        <section>
+            <div class="row text-center" id="section8">
+                <h2>
+                    لوازم جانبی اورجینال
+                </h2>
+            </div>
+
+            <div class="flex-container wrap" id="section5_flex-item1">
+                <a href="#">
+                    <div class="flex-item">
+                        <div class="flex-container" id="inner_flex">
+                            <div class="flex-item_inner1">
+                                <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Apple-Watch.png" alt="airp">
+                            </div>
+                            <div class="flex-item_inner2">
+                                <p id="p11">اپل واچ نایکی پلاس سری SE آلومینیوم نقره ای با بند سیلیکون سفید</p>
+                                <p id="p22">۹٬۸۷۰٬۰۰۰ تومان</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="flex-item">
+                        <div class="flex-container" id="inner_flex">
+                            <div class="flex-item_inner1">
+                                 <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/headphon.png" alt="airp">
+                            </div>
+                            <div class="flex-item_inner2">
+                                <p id="p11">اپل واچ نایکی پلاس سری SE آلومینیوم نقره ای با بند سیلیکون سفید</p>
+                                <p id="p22">۹٬۸۷۰٬۰۰۰ تومان</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="flex-item">
+                        <div class="flex-container" id="inner_flex">
+                            <div class="flex-item_inner1">
+                                <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/iphone13.png" alt="airp">
+                            </div>
+                            <div class="flex-item_inner2">
+                                <p id="p11">اپل واچ نایکی پلاس سری SE آلومینیوم نقره ای با بند سیلیکون سفید</p>
+                                <p id="p22">۹٬۸۷۰٬۰۰۰ تومان</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="flex-item">
+                        <div class="flex-container" id="inner_flex">
+                            <div class="flex-item_inner1">
+                                <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/airpod.png" alt="airp">
+                            </div>
+                            <div class="flex-item_inner2">
+                                <p id="p11">اپل واچ نایکی پلاس سری SE آلومینیوم نقره ای با بند سیلیکون سفید</p>
+                                <p id="p22">۹٬۸۷۰٬۰۰۰ تومان</p>
+                            </div>
+                        </div>
+                    </div> 
+                </a>
+                <a href="#">
+                    <div class="flex-item">
+                        <div class="flex-container" id="inner_flex">
+                            <div class="flex-item_inner1">
+                                <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/iphone-13-pro-max-blue-select.png" alt="airp">
+                            </div>
+                            <div class="flex-item_inner2">
+                                <p id="p11">اپل واچ نایکی پلاس سری SE آلومینیوم نقره ای با بند سیلیکون سفید</p>
+                                <p id="p22">۹٬۸۷۰٬۰۰۰ تومان</p>
+                            </div>
+                        </div>
+                    </div> 
+                </a>
+                <a href="#">
+                    <div class="flex-item">
+                        <div class="flex-container" id="inner_flex">
+                            <div class="flex-item_inner1">
+                                <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/284147.png" alt="airp">
+                            </div>
+                            <div class="flex-item_inner2">
+                                <p id="p11">اپل واچ نایکی پلاس سری SE آلومینیوم نقره ای با بند سیلیکون سفید</p>
+                                <p id="p22">۹٬۸۷۰٬۰۰۰ تومان</p>
+                            </div>
+                        </div>
+                    </div> 
+                </a>
+            </div>
+
+        </section>
+
+        <section>
+            <div class="flex-container wrap" id="section9_flex_container">
+                <div class="flex-item" id="section9_flex-item1">
+                    
+                    <div class="flex-container" style="flex-direction: column;display: flex;">
+                        <div class="flex-item-top">
+                            <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Frame-100.png" alt="frame">
+                        </div>
+                        <div class="flex-item-btm">
+                            <h6>عنوان پست بلاگ شماره یک</h6>
+                            <p class="s9pt">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت</p>
+                            
+                            <a href="#">
+                                <p>بیشتر بخوانید <span class="material-symbols-outlined">arrow_back</span></p>
+                            </a>
+                            
+                        </div>
+                    </div>
+
+                </div>
+                <div class="flex-item" id="section9_flex-item2">
+
+                    <div class="flex-container" style="flex-direction: column;display: flex;">
+                        <div class="flex-item-top">
+                            <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Frame-100.png" alt="frame">
+                        </div>
+                        <div class="flex-item-btm">
+                            <h6>عنوان پست بلاگ شماره دو</h6>
+                            <p class="s9pt">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت</p>
+                            <a href="#">
+                                <p>بیشتر بخوانید <span class="material-symbols-outlined">arrow_back</span></p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex-item" id="section9_flex-item3">
+
+                    <div class="flex-container" style="flex-direction: column;display: flex;">
+                        <div class="flex-item-top">
+                            <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Frame-100.png" alt="frame">
+                        </div>
+                        <div class="flex-item-btm">
+                            <h6>عنوان پست بلاگ شماره سه</h6>
+                            <p class="s9pt">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت</p>
+                            <a href="#">
+                                <p>بیشتر بخوانید <span class="material-symbols-outlined">arrow_back</span></p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="flex-container" style="display: flex;justify-content: center; flex-direction: row;">
+                <div class=flex-item id="more9">
+                    <a href="#">
+                        <P>مطالب بیشتر +</P>
+                    </a>
+
+                </div>
+
+            </div>
+        </section>
+
     </main>
 </div>
 
