@@ -1,24 +1,49 @@
-<?php get_header(); ?>
+<?php  get_header(); ?>
 
 
 <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
 
-        <section id="section1">
-            <div class="container" >
-                <div class="row">
-                    <div class="col-5" id="image_col">
-                        <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Apple_watch-series7-availability_hero_10052021_big.jpg-1.png" 
-                         width=536px height=435px alt="applewatch">
-                    </div>
-                    <div class="col-7" id="header_title">
-                        <h1>اپل واچ سری ۷</h1>
-                        <h6 id="header_title_h6"> دنیای هوشمند در سری جدید ساعت های اپل </h6>
-                        <p id="header_title_p">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد،</p>
+        <?php if(get_theme_mod('iclinic-header-callout-display') == 'Yes') { ?>
+            <section id="section1">
+                <div class="container" >
+                    <div class="row">
+                        <div class="col-5" id="image_col">
+                             <?php if(get_theme_mod('iclinic-header-callout-image')): { ?>
+                             <img src="<?php
+                             echo wp_get_attachment_url(get_theme_mod('iclinic-header-callout-image'));
+                             ?>" alt="applewatch">
+                             <?php } else : { ?>
+                                <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Apple_watch-series7-availability_hero_10052021_big.png" 
+                             width=536px height=435px alt="applewatch">
+                             <?php } endif; ?>
+                        </div>
+                        <div class="col-7" id="header_title">
+                            <!-- <h1>اپل واچ سری ۷</h1> -->
+                            <h1><?php echo get_theme_mod('iclinic-header-callout-headline'); ?></h1>
+                            <!-- <h6 id="header_title_h6"> دنیای هوشمند در سری جدید ساعت های اپل </h6> -->
+                            <h6 id="header_title_h6">
+                                <?php echo get_theme_mod('iclinic-header-callout-title'); ?>
+                            </h6>
+                            <!-- <p id="header_title_p">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد،</p> -->
+                            <p id="header_title_p">
+                                <?php echo get_theme_mod('iclinic-header-callout-text'); ?>
+                            </p>
+                            <div class="row">
+                                <div class="col" id="header_2">
+                                    <button type="button" class="btn btn-light" id="btn1">
+                                        <div class="flex-container" id="btn_flex">
+                                            <div class="flex-item" id="btn_flex_item1">
+                                                <img src="http://localhost/wordpress.developer/wp-content/uploads/2022/11/F07H3_AV1-1.png" alt="applewtch" id="applewtch_img">
+                                            </div>
+                                            <div class="flex-item" id="btn_flex_item2">
+                                                <h6 id="btn_flex_item2_h6">اپل واچ سری ۶</h6>
+                                                <p id="btn_flex_item2_p1">رنگ مشکی، ۴۴ سانتی متر</p>
+                                                <p id="btn_flex_item2_p2">۸،۷۷۰،۰۰۰ تومان</p>
+                                            </div>
 
-                        <div class="row">
-                            <div class="col" id="header_2">
-                                
+                                        </div>
+                                    </button>
 
                                     <button type="button" class="btn btn-light" id="btn1">
                                         <div class="flex-container" id="btn_flex">
@@ -30,59 +55,58 @@
                                                 <h6 id="btn_flex_item2_h6">اپل واچ سری ۶</h6>
                                                 <p id="btn_flex_item2_p1">رنگ مشکی، ۴۴ سانتی متر</p>
                                                 <p id="btn_flex_item2_p2">۸،۷۷۰،۰۰۰ تومان</p>
-                                            </div>
-                                                                                   
+                                            </div>                                    
                                         </div>
                                     </button>
-                                    
-                                    <button type="button" class="btn btn-light" id="btn1">
-                                        <div class="flex-container" id="btn_flex">
-                                            <div class="flex-item" id="btn_flex_item1">
-                                                <img src="http://localhost/wordpress.developer/wp-content/uploads/2022/11/F07H3_AV1-1.png" alt="applewtch" id="applewtch_img">
-                                            </div>
-                                            
-                                            <div class="flex-item" id="btn_flex_item2">
-                                                <h6 id="btn_flex_item2_h6">اپل واچ سری ۶</h6>
-                                                <p id="btn_flex_item2_p1">رنگ مشکی، ۴۴ سانتی متر</p>
-                                                <p id="btn_flex_item2_p2">۸،۷۷۰،۰۰۰ تومان</p>
-                                            </div>
-                                                                                   
-                                        </div>
-                                    </button>
-
+                                </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
-            </div>
 
-        </section>
+            </section>
+        <?php } ?>
 
+        <?php if(get_theme_mod('iclinic-banner1-callout-display') == 'Yes') { ?>
         <section>
             <div class="container-fluid" id="section2">
-                <div class="row">
+                <div class="row" id="s2r">
 
-                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/img1.png" alt="13256">
+                    <?php if(wp_get_attachment_url(get_theme_mod('iclinic-banner1-callout-image'))): { ?>
+                    <img src="<?php
+                             echo wp_get_attachment_url(get_theme_mod('iclinic-banner1-callout-image'));
+                             ?>" alt="banner">
+                    <?php } else: { ?>
+                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/img1.png" alt="13256"> 
+                    <?php } endif; ?>
+                    
                     <div class="overlay row">
-                        <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Rectangle-6.png" alt="over">
+                        <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Rectangle-6.png" alt="cover">
                     </div>
+                    
                     <div class="overlay">
                         <div class="row text-center" id="overlay_txt">
-                            <h1>آی کلینیک پلاس</h1>
-                            <h4>خدمات ویژه تعمیرات آی کلینیک</h4>
+                            <!-- <h1>آی کلینیک پلاس</h1> -->
+                            <h1><?php echo get_theme_mod('iclinic-banner1-callout-headline');?></h1>
+                            <!-- <h4>خدمات ویژه تعمیرات آی کلینیک</h4> -->
+                            <h4><?php echo get_theme_mod('iclinic-banner1-callout-title');?></h4>
                             <div class="flex-container" id="overlay_flex_container">
-                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</p>
+                                <!-- <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</p> -->
+                                <p><?php echo get_theme_mod('iclinic-banner1-callout-text');?></p>
                             </div>
-                            <button type="button" class="btn btn-light" id="section_btn">
-                                ثبت نام و ثبت ایراد دستگاه  >
-                            </button>
+                            <a href="<?php echo get_permalink(get_theme_mod('iclinic-banner1-callout-link')); ?>">
+                                <button type="button" onclick="#" class="btn btn-light" id="section_btn">
+                                    <?php echo get_theme_mod('iclinic-banner1-callout-button');?>
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
 
         </section>
+        <?php } ?>
+
 
         <section id="section3">
             <div id="search-form">
@@ -261,11 +285,12 @@
 
         </section>
 
+        <?php if(get_theme_mod('iclinic-offer-callout-display') == 'Yes') { ?>
         <section>
 
             <div class="row text-center" id="section6">
                 <h2>
-                     پر فروش‌ترین کالاهای آی‌کلینیک
+                    <?php echo get_theme_mod('iclinic-offer-callout-headline');?>
                 </h2>
             </div>
             
@@ -277,7 +302,7 @@
                                 <div class="flex-item">
                                         <div class="flex-container" id="inner_flex6">
                                             <div class="flex-item_inner1-6">
-                                                <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Apple-MacBook-Pro-16-2021-Gray 1.png" alt="airp">
+                                                <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Apple-MacBook-Pro-16-2021-Gray1.png" alt="airp">
                                             </div>
                                             <div class="flex-item_inner2-6">
                                                 <p id="p_title">مک بوک پرو 16 اینچ M1 Pro ظرفیت 1/16 ترابایت مدل 2021</p>
@@ -348,6 +373,8 @@
             </div>
 
         </section>
+        <?php } ?>
+
 
         <section>
             <div class="container" id="section7">
@@ -474,19 +501,31 @@
 
         </section>
 
+        <?php if(get_theme_mod('iclinic-blog-callout-display') == 'Yes') { ?>
         <section>
             <div class="flex-container wrap" id="section9_flex_container">
                 <div class="flex-item" id="section9_flex-item1">
                     
                     <div class="flex-container" style="flex-direction: column;display: flex;">
                         <div class="flex-item-top">
-                            <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Frame-100.png" alt="frame">
+
+                            <?php if(get_theme_mod('iclinic-blog-callout-image1')): { ?>
+                                <img src="<?php
+                                echo wp_get_attachment_url(get_theme_mod('iclinic-blog-callout-image1'));
+                                ?>" alt="banner">
+                            <?php } else: { ?>
+                                <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Frame-100.png" alt="frame">
+                            <?php } endif; ?>
+
                         </div>
                         <div class="flex-item-btm">
-                            <h6>عنوان پست بلاگ شماره یک</h6>
-                            <p class="s9pt">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت</p>
-                            
-                            <a href="#">
+                            <!-- <h6>عنوان پست بلاگ شماره یک</h6> -->
+                            <h6><?php echo get_theme_mod('iclinic-blog-callout-headline1');?></h6>
+
+                            <!-- <p class="s9pt">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت</p> -->
+                            <p class="s9pt"><?php echo get_theme_mod('iclinic-blog-callout-text1');?></p>
+
+                            <a href="<?php echo get_permalink(get_theme_mod('iclinic-blog-callout-link1')); ?>">
                                 <p>بیشتر بخوانید <span class="material-symbols-outlined">arrow_back</span></p>
                             </a>
                             
@@ -498,12 +537,22 @@
 
                     <div class="flex-container" style="flex-direction: column;display: flex;">
                         <div class="flex-item-top">
-                            <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Frame-100.png" alt="frame">
+
+                            <?php if(get_theme_mod('iclinic-blog-callout-image2')): { ?>
+                                <img src="<?php
+                                echo wp_get_attachment_url(get_theme_mod('iclinic-blog-callout-image2'));
+                                ?>" alt="banner">
+                            <?php } else: { ?>
+                                <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Frame-100.png" alt="frame">
+                            <?php } endif; ?>
+
                         </div>
                         <div class="flex-item-btm">
-                            <h6>عنوان پست بلاگ شماره دو</h6>
-                            <p class="s9pt">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت</p>
-                            <a href="#">
+                            <h6><?php echo get_theme_mod('iclinic-blog-callout-headline2');?></h6>
+
+                            <p class="s9pt"><?php echo get_theme_mod('iclinic-blog-callout-text2');?></p>
+                            
+                            <a href="<?php echo get_permalink(get_theme_mod('iclinic-blog-callout-link2')); ?>">
                                 <p>بیشتر بخوانید <span class="material-symbols-outlined">arrow_back</span></p>
                             </a>
                         </div>
@@ -514,12 +563,22 @@
 
                     <div class="flex-container" style="flex-direction: column;display: flex;">
                         <div class="flex-item-top">
-                            <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Frame-100.png" alt="frame">
+
+                            <?php if(get_theme_mod('iclinic-blog-callout-image3')): { ?>
+                                <img src="<?php
+                                echo wp_get_attachment_url(get_theme_mod('iclinic-blog-callout-image3'));
+                                ?>" alt="banner">
+                            <?php } else: { ?>
+                                <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Frame-100.png" alt="frame">
+                            <?php } endif; ?>
+
                         </div>
                         <div class="flex-item-btm">
-                            <h6>عنوان پست بلاگ شماره سه</h6>
-                            <p class="s9pt">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت</p>
-                            <a href="#">
+                            <h6><?php echo get_theme_mod('iclinic-blog-callout-headline3');?></h6>
+
+                            <p class="s9pt"><?php echo get_theme_mod('iclinic-blog-callout-text3');?></p>
+                            
+                            <a href="<?php echo get_permalink(get_theme_mod('iclinic-blog-callout-link3')); ?>">
                                 <p>بیشتر بخوانید <span class="material-symbols-outlined">arrow_back</span></p>
                             </a>
                         </div>
@@ -538,6 +597,7 @@
 
             </div>
         </section>
+        <?php } ?>
 
         <section>
             <div class="flex-container wrap" id="section10" style="flex-direction: row;display: flex;">

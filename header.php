@@ -23,7 +23,12 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <a class="navbar-brand" href="#">
-                <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/logo.png" alt="iclinic-logo" height=20>
+
+                    <?php if(get_theme_mod('iclinic-logo-callout-image')) : { ?>
+                        <img src="<?php echo (get_theme_mod('iclinic-logo-callout-image')); ?>" alt="iclinic-logo" height=20>
+                    <?php } else : { ?>
+                        <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/logo.png" alt="iclinic-logo" height=20>
+                    <?php } endif ?>
                 </a>
                     <?php
                     wp_nav_menu( array(
