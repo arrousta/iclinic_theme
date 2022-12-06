@@ -57,13 +57,13 @@
         <div class="col-lg-6 col-12 text-center" id="crt_img">
             <ul class="flex-container wrap" id="footer_flex-item2">
                 <li class="flex-item">
-                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/star1-1.png" width=97 height=106 alt="1">
+                    <img src="<?php bloginfo('template_url')?>/assets/images/star1-1.png" width=97 height=106 alt="1">
                 </li>
                 <li class="flex-item">
-                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Verified-Online-Business-1.png" width=115 height=115 alt="2">
+                    <img src="<?php bloginfo('template_url')?>/assets/images/Verified-Online-Business-1.png" width=115 height=115 alt="2">
                 </li>
                 <li class="flex-item">
-                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/logo-1.png" width=108 height=108 alt="3">
+                    <img src="<?php bloginfo('template_url')?>/assets/images/logo-1.png" width=108 height=108 alt="3">
                 </li>
 
 
@@ -93,19 +93,19 @@
 
                 <div class="col">
                     <a href="#">
-                        <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/facebook.png" alt="facebook">
+                        <img src="<?php bloginfo('template_url')?>/assets/images/facebook.png" alt="facebook">
                     </a>
                 </div>
 
                 <div class="col">
                     <a href="#">
-                        <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Instagram.png" alt="Instagram">
+                        <img src="<?php bloginfo('template_url')?>/assets/images/Instagram.png" alt="Instagram">
                     </a>    
                 </div>
 
                 <div class="col">
                     <a href="#">
-                        <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Twitter.png" alt="Twitter">
+                        <img src="<?php bloginfo('template_url')?>/assets/images/Twitter.png" alt="Twitter">
                     </a>    
                 </div>
                 

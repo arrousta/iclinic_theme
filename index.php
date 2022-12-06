@@ -8,25 +8,27 @@
             <section id="section1">
                 <div class="container" >
                     <div class="row">
-                        <div class="col-5" id="image_col">
-                             <?php if(get_theme_mod('iclinic-header-callout-image')): { ?>
-                             <img src="<?php
-                             echo wp_get_attachment_url(get_theme_mod('iclinic-header-callout-image'));
-                             ?>" alt="applewatch">
-                             <?php } else : { ?>
-                                <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Apple_watch-series7-availability_hero_10052021_big.png" 
-                             width=536px height=435px alt="applewatch">
-                             <?php } endif; ?>
+                        <div class="prefix_iclinic-header-callout-image col-5" id="image_col">
+
+                            <?php if(get_theme_mod('iclinic-header-callout-image')): { ?>
+                                <img src="<?php
+                                echo wp_get_attachment_url(get_theme_mod('iclinic-header-callout-image'));?> " alt="applewatch">
+                            <?php } else : { ?>
+                                <img src="<?php bloginfo('template_url')?>/assets/images/Apple_watch-series7-availability_hero_10052021_big.png" 
+                                width=536px height=435px alt="applewatch">
+                            <?php } endif; ?>
+
                         </div>
+
                         <div class="col-7" id="header_title">
                             <!-- <h1>اپل واچ سری ۷</h1> -->
-                            <h1><?php echo get_theme_mod('iclinic-header-callout-headline'); ?></h1>
+                            <h1 class="prefix_iclinic-header-callout-headline"><?php echo get_theme_mod('iclinic-header-callout-headline'); ?></h1>
                             <!-- <h6 id="header_title_h6"> دنیای هوشمند در سری جدید ساعت های اپل </h6> -->
-                            <h6 id="header_title_h6">
+                            <h6 class="prefix_iclinic-header-callout-title" id="header_title_h6">
                                 <?php echo get_theme_mod('iclinic-header-callout-title'); ?>
                             </h6>
                             <!-- <p id="header_title_p">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد،</p> -->
-                            <p id="header_title_p">
+                            <p class="prefix_iclinic-header-callout-text" id="header_title_p">
                                 <?php echo get_theme_mod('iclinic-header-callout-text'); ?>
                             </p>
                             <div class="row">
@@ -34,7 +36,7 @@
                                     <button type="button" class="btn btn-light" id="btn1">
                                         <div class="flex-container" id="btn_flex">
                                             <div class="flex-item" id="btn_flex_item1">
-                                                <img src="http://localhost/wordpress.developer/wp-content/uploads/2022/11/F07H3_AV1-1.png" alt="applewtch" id="applewtch_img">
+                                                <img src="<?php bloginfo('template_url')?>/assets/images/F07H3_AV1-1.png" alt="applewtch" id="applewtch_img">
                                             </div>
                                             <div class="flex-item" id="btn_flex_item2">
                                                 <h6 id="btn_flex_item2_h6">اپل واچ سری ۶</h6>
@@ -48,7 +50,7 @@
                                     <button type="button" class="btn btn-light" id="btn1">
                                         <div class="flex-container" id="btn_flex">
                                             <div class="flex-item" id="btn_flex_item1">
-                                                <img src="http://localhost/wordpress.developer/wp-content/uploads/2022/11/F07H3_AV1-1.png" alt="applewtch" id="applewtch_img">
+                                                <img src="<?php bloginfo('template_url')?>/assets/images/F07H3_AV1-1.png" alt="applewtch" id="applewtch_img">
                                             </div>
 
                                             <div class="flex-item" id="btn_flex_item2">
@@ -77,14 +79,14 @@
                              echo wp_get_attachment_url(get_theme_mod('iclinic-banner1-callout-image'));
                              ?>" alt="banner">
                     <?php } else: { ?>
-                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/img1.png" alt="13256"> 
+                    <img src="<?php bloginfo('template_url')?>/assets/images/img1.png" alt="13256"> 
                     <?php } endif; ?>
                     
                     <div class="overlay row">
-                        <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Rectangle-6.png" alt="cover">
+                        <img src="<?php bloginfo('template_url')?>/assets/images/Rectangle-6.png" alt="cover">
                     </div>
                     
-                    <div class="overlay">
+                    <div class="prefix_iclinic-banner1-callout-image overlay">
                         <div class="row text-center" id="overlay_txt">
                             <!-- <h1>آی کلینیک پلاس</h1> -->
                             <h1><?php echo get_theme_mod('iclinic-banner1-callout-headline');?></h1>
@@ -123,37 +125,37 @@
             <div class="flex-container wrap" id="section4_flex-item1">
                 <div id="section1_div">
                     <button id="s1btn">
-                        <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/MN643.png" alt="iphone1">
+                        <img src="<?php bloginfo('template_url')?>/assets/images/MN643.png" alt="iphone1">
                         <p>لوازم جانبی اپل</p>
                     </button>
                 </div>
                 <div>
                     <button id="s1btn">
-                        <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/compare_mbp14_and_16__f2dhysusb5im_large_2x.png" alt="laptop1">
+                        <img src="<?php bloginfo('template_url')?>/assets/images/compare_mbp14_and_16__f2dhysusb5im_large_2x.png" alt="laptop1">
                         <p>دستگاه‌های‌مک</p>
                     </button>
                 </div>
                 <div>
                     <button id="s1btn">
-                        <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/compare_iphone_13_pro__bpn3x8hs692a_large_2x.png" alt="iphon2">
+                        <img src="<?php bloginfo('template_url')?>/assets/images/compare_iphone_13_pro__bpn3x8hs692a_large_2x.png" alt="iphon2">
                         <p>آیفون</p>
                     </button>
                 </div>
                 <div>
                     <button id="s1btn">
-                        <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/compare_ipad_pro__erf9x8mw04sy_large_2x.png" alt="ipad">
+                        <img src="<?php bloginfo('template_url')?>/assets/images/compare_ipad_pro__erf9x8mw04sy_large_2x.png" alt="ipad">
                         <p>آی‌پد</p>
                     </button>
                 </div>
                 <div>
                     <button id="s1btn">
-                        <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/compare_s7__dqi9jnwa4sq6_large_2x.png" alt="appw">
+                        <img src="<?php bloginfo('template_url')?>/assets/images/compare_s7__dqi9jnwa4sq6_large_2x.png" alt="appw">
                         <p>اپل واچ</p>
                     </button>
                 </div>
                 <div>
                     <button id="s1btn">
-                        <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/compare_airpods_pro__e9uzt0mzviem_large_2x.png" alt="airp">
+                        <img src="<?php bloginfo('template_url')?>/assets/images/compare_airpods_pro__e9uzt0mzviem_large_2x.png" alt="airp">
                         <p>ایرپاد</p>
                     </button>
                 </div>
@@ -167,7 +169,7 @@
                     <div class="flex-item">
                         <div class="flex-container" id="inner_flex">
                             <div class="flex-item_inner1">
-                                <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Apple-Watch.png" alt="airp">
+                                <img src="<?php bloginfo('template_url')?>/assets/images/Apple-Watch.png" alt="airp">
                             </div>
                             <div class="flex-item_inner2">
                                 <p id="p11">اپل واچ نایکی پلاس سری SE آلومینیوم نقره ای با بند سیلیکون سفید</p>
@@ -181,7 +183,7 @@
                     <div class="flex-item">
                         <div class="flex-container" id="inner_flex">
                             <div class="flex-item_inner1">
-                                 <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/headphon.png" alt="airp">
+                                 <img src="<?php bloginfo('template_url')?>/assets/images/headphon.png" alt="airp">
                             </div>
                             <div class="flex-item_inner2">
                                 <p id="p11">اپل واچ نایکی پلاس سری SE آلومینیوم نقره ای با بند سیلیکون سفید</p>
@@ -194,7 +196,7 @@
                     <div class="flex-item">
                         <div class="flex-container" id="inner_flex">
                             <div class="flex-item_inner1">
-                                <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/iphone13.png" alt="airp">
+                                <img src="<?php bloginfo('template_url')?>/assets/images/iphone13.png" alt="airp">
                             </div>
                             <div class="flex-item_inner2">
                                 <p id="p11">اپل واچ نایکی پلاس سری SE آلومینیوم نقره ای با بند سیلیکون سفید</p>
@@ -207,7 +209,7 @@
                     <div class="flex-item">
                         <div class="flex-container" id="inner_flex">
                             <div class="flex-item_inner1">
-                                <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/airpod.png" alt="airp">
+                                <img src="<?php bloginfo('template_url')?>/assets/images/airpod.png" alt="airp">
                             </div>
                             <div class="flex-item_inner2">
                                 <p id="p11">اپل واچ نایکی پلاس سری SE آلومینیوم نقره ای با بند سیلیکون سفید</p>
@@ -220,7 +222,7 @@
                     <div class="flex-item">
                         <div class="flex-container" id="inner_flex">
                             <div class="flex-item_inner1">
-                                <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/iphone-13-pro-max-blue-select.png" alt="airp">
+                                <img src="<?php bloginfo('template_url')?>/assets/images/iphone-13-pro-max-blue-select.png" alt="airp">
                             </div>
                             <div class="flex-item_inner2">
                                 <p id="p11">اپل واچ نایکی پلاس سری SE آلومینیوم نقره ای با بند سیلیکون سفید</p>
@@ -233,7 +235,7 @@
                     <div class="flex-item">
                         <div class="flex-container" id="inner_flex">
                             <div class="flex-item_inner1">
-                                <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/284147.png" alt="airp">
+                                <img src="<?php bloginfo('template_url')?>/assets/images/284147.png" alt="airp">
                             </div>
                             <div class="flex-item_inner2">
                                 <p id="p11">اپل واچ نایکی پلاس سری SE آلومینیوم نقره ای با بند سیلیکون سفید</p>
@@ -246,7 +248,7 @@
                     <div class="flex-item">
                         <div class="flex-container" id="inner_flex">
                             <div class="flex-item_inner1">
-                            <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/airpod.png" alt="airp">
+                            <img src="<?php bloginfo('template_url')?>/assets/images/airpod.png" alt="airp">
                         </div>
                             <div class="flex-item_inner2">
                                 <p id="p11">اپل واچ نایکی پلاس سری SE آلومینیوم نقره ای با بند سیلیکون سفید</p>
@@ -259,7 +261,7 @@
                     <div class="flex-item">
                         <div class="flex-container" id="inner_flex">
                             <div class="flex-item_inner1">
-                                <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/iphone-13-pro-max-blue-select.png" alt="airp">
+                                <img src="<?php bloginfo('template_url')?>/assets/images/iphone-13-pro-max-blue-select.png" alt="airp">
                             </div>
                             <div class="flex-item_inner2">
                                 <p id="p11">اپل واچ نایکی پلاس سری SE آلومینیوم نقره ای با بند سیلیکون سفید</p>
@@ -272,7 +274,7 @@
                     <div class="flex-item">
                         <div class="flex-container" id="inner_flex">
                             <div class="flex-item_inner1">
-                                <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/284147.png" alt="airp">
+                                <img src="<?php bloginfo('template_url')?>/assets/images/284147.png" alt="airp">
                             </div>
                             <div class="flex-item_inner2">
                                 <p id="p11">اپل واچ نایکی پلاس سری SE آلومینیوم نقره ای با بند سیلیکون سفید</p>
@@ -302,7 +304,7 @@
                                 <div class="flex-item">
                                         <div class="flex-container" id="inner_flex6">
                                             <div class="flex-item_inner1-6">
-                                                <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Apple-MacBook-Pro-16-2021-Gray1.png" alt="airp">
+                                                <img src="<?php bloginfo('template_url')?>/assets/images/Apple-MacBook-Pro-16-2021-Gray1.png" alt="airp">
                                             </div>
                                             <div class="flex-item_inner2-6">
                                                 <p id="p_title">مک بوک پرو 16 اینچ M1 Pro ظرفیت 1/16 ترابایت مدل 2021</p>
@@ -321,7 +323,7 @@
                                         <div class="flex-item">
                                             <div class="flex-container" id="inner_flex6">
                                                 <div class="flex-item_inner3-6">
-                                                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Apple-iPhone-13-Pro-2022-Family.png" alt="airp">
+                                                    <img src="<?php bloginfo('template_url')?>/assets/images/Apple-iPhone-13-Pro-2022-Family.png" alt="airp">
                                                 </div>
                                                 <div class="flex-item_inner4-6">
                                                     <p id="p_title">آیفون ۱۳ پرو ظرفیت ۲۵۶ گیگ دوسیم کارت</p>
@@ -338,7 +340,7 @@
                                         <div class="flex-item">
                                             <div class="flex-container" id="inner_flex6">
                                                 <div class="flex-item_inner3-6">
-                                                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Apple-Watch-S-7-1.png" alt="airp">
+                                                    <img src="<?php bloginfo('template_url')?>/assets/images/Apple-Watch-S-7-1.png" alt="airp">
                                                 </div>
                                                 <div class="flex-item_inner4-6">
                                                     <p id="p_title">اپل واچ سری ۷ آبی با بند اسپرت سیلیکون آبیس بلو</p>
@@ -356,7 +358,7 @@
                                         <div class="flex-item">
                                             <div class="flex-container" id="inner_flex6-2">
                                                 <div class="flex-item_inner5-6">
-                                                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/airpods-2nd-charging-case-1.png" alt="airp">
+                                                    <img src="<?php bloginfo('template_url')?>/assets/images/airpods-2nd-charging-case-1.png" alt="airp">
                                                 </div>
                                                 <div class="flex-item_inner6-6">
                                                     <p id="p_title">ایرپاد هندزفری بلوتوث نسل 2 اپل</p>
@@ -385,8 +387,8 @@
                                 <div class="flex-item">
                                     <div class="flex-container" id="inner_flex_7">
                                         <div class="flex-item_inner1_7">
-                                            <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/airpods_pro_right__fm0wwisa76em_large_2x.png" alt="airpods_pro_right" id="apr_img">
-                                            <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/airpods_pro_left__bvanpj0ujnf6_large_2x.png" alt="airpods_pro_left">
+                                            <img src="<?php bloginfo('template_url')?>/assets/images/airpods_pro_right__fm0wwisa76em_large_2x.png" alt="airpods_pro_right" id="apr_img">
+                                            <img src="<?php bloginfo('template_url')?>/assets/images/airpods_pro_left__bvanpj0ujnf6_large_2x.png" alt="airpods_pro_left">
 
                                         </div>
                                         <div class="flex-item_inner2_7">
@@ -396,7 +398,7 @@
                                                     <p id="p_title2">AirPods Pro</p>
                                                 </div>
                                                 <div>
-                                                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Frame45.png" alt="prc">
+                                                    <img src="<?php bloginfo('template_url')?>/assets/images/Frame45.png" alt="prc">
                                                 </div>
                                             </div>
                                         </div>
@@ -422,7 +424,7 @@
                     <div class="flex-item">
                         <div class="flex-container" id="inner_flex">
                             <div class="flex-item_inner1">
-                                <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Apple-Watch.png" alt="airp">
+                                <img src="<?php bloginfo('template_url')?>/assets/images/Apple-Watch.png" alt="airp">
                             </div>
                             <div class="flex-item_inner2">
                                 <p id="p11">اپل واچ نایکی پلاس سری SE آلومینیوم نقره ای با بند سیلیکون سفید</p>
@@ -436,7 +438,7 @@
                     <div class="flex-item">
                         <div class="flex-container" id="inner_flex">
                             <div class="flex-item_inner1">
-                                 <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/headphon.png" alt="airp">
+                                 <img src="<?php bloginfo('template_url')?>/assets/images/headphon.png" alt="airp">
                             </div>
                             <div class="flex-item_inner2">
                                 <p id="p11">اپل واچ نایکی پلاس سری SE آلومینیوم نقره ای با بند سیلیکون سفید</p>
@@ -449,7 +451,7 @@
                     <div class="flex-item">
                         <div class="flex-container" id="inner_flex">
                             <div class="flex-item_inner1">
-                                <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/iphone13.png" alt="airp">
+                                <img src="<?php bloginfo('template_url')?>/assets/images/iphone13.png" alt="airp">
                             </div>
                             <div class="flex-item_inner2">
                                 <p id="p11">اپل واچ نایکی پلاس سری SE آلومینیوم نقره ای با بند سیلیکون سفید</p>
@@ -462,7 +464,7 @@
                     <div class="flex-item">
                         <div class="flex-container" id="inner_flex">
                             <div class="flex-item_inner1">
-                                <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/airpod.png" alt="airp">
+                                <img src="<?php bloginfo('template_url')?>/assets/images/airpod.png" alt="airp">
                             </div>
                             <div class="flex-item_inner2">
                                 <p id="p11">اپل واچ نایکی پلاس سری SE آلومینیوم نقره ای با بند سیلیکون سفید</p>
@@ -475,7 +477,7 @@
                     <div class="flex-item">
                         <div class="flex-container" id="inner_flex">
                             <div class="flex-item_inner1">
-                                <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/iphone-13-pro-max-blue-select.png" alt="airp">
+                                <img src="<?php bloginfo('template_url')?>/assets/images/iphone-13-pro-max-blue-select.png" alt="airp">
                             </div>
                             <div class="flex-item_inner2">
                                 <p id="p11">اپل واچ نایکی پلاس سری SE آلومینیوم نقره ای با بند سیلیکون سفید</p>
@@ -488,7 +490,7 @@
                     <div class="flex-item">
                         <div class="flex-container" id="inner_flex">
                             <div class="flex-item_inner1">
-                                <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/284147.png" alt="airp">
+                                <img src="<?php bloginfo('template_url')?>/assets/images/284147.png" alt="airp">
                             </div>
                             <div class="flex-item_inner2">
                                 <p id="p11">اپل واچ نایکی پلاس سری SE آلومینیوم نقره ای با بند سیلیکون سفید</p>
@@ -504,7 +506,7 @@
         <?php if(get_theme_mod('iclinic-blog-callout-display') == 'Yes') { ?>
         <section>
             <div class="flex-container wrap" id="section9_flex_container">
-                <div class="flex-item" id="section9_flex-item1">
+                <div class="prefix_iclinic-blog-callout-image1 flex-item" id="section9_flex-item1">
                     
                     <div class="flex-container" style="flex-direction: column;display: flex;">
                         <div class="flex-item-top">
@@ -514,7 +516,7 @@
                                 echo wp_get_attachment_url(get_theme_mod('iclinic-blog-callout-image1'));
                                 ?>" alt="banner">
                             <?php } else: { ?>
-                                <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Frame-100.png" alt="frame">
+                                <img src="<?php bloginfo('template_url')?>/assets/images/Frame-100.png" alt="frame">
                             <?php } endif; ?>
 
                         </div>
@@ -533,7 +535,7 @@
                     </div>
 
                 </div>
-                <div class="flex-item" id="section9_flex-item2">
+                <div class="prefix_iclinic-blog-callout-image2 flex-item" id="section9_flex-item2">
 
                     <div class="flex-container" style="flex-direction: column;display: flex;">
                         <div class="flex-item-top">
@@ -543,7 +545,7 @@
                                 echo wp_get_attachment_url(get_theme_mod('iclinic-blog-callout-image2'));
                                 ?>" alt="banner">
                             <?php } else: { ?>
-                                <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Frame-100.png" alt="frame">
+                                <img src="<?php bloginfo('template_url')?>/assets/images/Frame-100.png" alt="frame">
                             <?php } endif; ?>
 
                         </div>
@@ -559,7 +561,7 @@
                     </div>
                 </div>
 
-                <div class="flex-item" id="section9_flex-item3">
+                <div class="prefix_iclinic-blog-callout-image3 flex-item" id="section9_flex-item3">
 
                     <div class="flex-container" style="flex-direction: column;display: flex;">
                         <div class="flex-item-top">
@@ -569,7 +571,7 @@
                                 echo wp_get_attachment_url(get_theme_mod('iclinic-blog-callout-image3'));
                                 ?>" alt="banner">
                             <?php } else: { ?>
-                                <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Frame-100.png" alt="frame">
+                                <img src="<?php bloginfo('template_url')?>/assets/images/Frame-100.png" alt="frame">
                             <?php } endif; ?>
 
                         </div>
@@ -602,64 +604,64 @@
         <section>
             <div class="flex-container wrap" id="section10" style="flex-direction: row;display: flex;">
                 <div class="s10_flex_item">
-                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Energizer_logo.png" alt="energizer">
+                    <img src="<?php bloginfo('template_url')?>/assets/images/Energizer_logo.png" alt="energizer">
                 </div>
                 <div class="s10_flex_item">
-                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Anker-logo.png" alt="Anker">
+                    <img src="<?php bloginfo('template_url')?>/assets/images/Anker-logo.png" alt="Anker">
                 </div>
                 <div class="s10_flex_item">
-                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/SanDisk_Logo_2007.png" alt="SanDisk">
+                    <img src="<?php bloginfo('template_url')?>/assets/images/SanDisk_Logo_2007.png" alt="SanDisk">
                 </div>
                 <div class="s10_flex_item">
-                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/1200px-Lexar.png" alt="Lexar">
+                    <img src="<?php bloginfo('template_url')?>/assets/images/1200px-Lexar.png" alt="Lexar">
                 </div>
                 <div class="s10_flex_item">
-                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/baseus.png" alt="baseus">
+                    <img src="<?php bloginfo('template_url')?>/assets/images/baseus.png" alt="baseus">
                 </div>
                 <div class="s10_flex_item">
-                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Anker-logo.png" alt="Anker">
+                    <img src="<?php bloginfo('template_url')?>/assets/images/Anker-logo.png" alt="Anker">
                 </div>
                 <div class="s10_flex_item">
-                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/SanDisk_Logo_2007.png" alt="SanDisk">
+                    <img src="<?php bloginfo('template_url')?>/assets/images/SanDisk_Logo_2007.png" alt="SanDisk">
                 </div>
                 <div class="s10_flex_item">
-                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Energizer_logo.png" alt="energizer">
+                    <img src="<?php bloginfo('template_url')?>/assets/images/Energizer_logo.png" alt="energizer">
                 </div>
                 <div class="s10_flex_item">
-                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/baseus.png" alt="baseus">
+                    <img src="<?php bloginfo('template_url')?>/assets/images/baseus.png" alt="baseus">
                 </div>
                 <div class="s10_flex_item">
-                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/1200px-Lexar.png" alt="Lexar">
+                    <img src="<?php bloginfo('template_url')?>/assets/images/1200px-Lexar.png" alt="Lexar">
                 </div>
                 <div class="s10_flex_item">
-                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Energizer_logo.png" alt="energizer">
+                    <img src="<?php bloginfo('template_url')?>/assets/images/Energizer_logo.png" alt="energizer">
                 </div>
                 <div class="s10_flex_item">
-                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Anker-logo.png" alt="Anker">
+                    <img src="<?php bloginfo('template_url')?>/assets/images/Anker-logo.png" alt="Anker">
                 </div>
                 <div class="s10_flex_item">
-                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/SanDisk_Logo_2007.png" alt="SanDisk">
+                    <img src="<?php bloginfo('template_url')?>/assets/images/SanDisk_Logo_2007.png" alt="SanDisk">
                 </div>
                 <div class="s10_flex_item">
-                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/1200px-Lexar.png" alt="Lexar">
+                    <img src="<?php bloginfo('template_url')?>/assets/images/1200px-Lexar.png" alt="Lexar">
                 </div>
                 <div class="s10_flex_item">
-                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/baseus.png" alt="baseus">
+                    <img src="<?php bloginfo('template_url')?>/assets/images/baseus.png" alt="baseus">
                 </div>
                 <div class="s10_flex_item">
-                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Anker-logo.png" alt="Anker">
+                    <img src="<?php bloginfo('template_url')?>/assets/images/Anker-logo.png" alt="Anker">
                 </div>
                 <div class="s10_flex_item">
-                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/SanDisk_Logo_2007.png" alt="SanDisk">
+                    <img src="<?php bloginfo('template_url')?>/assets/images/SanDisk_Logo_2007.png" alt="SanDisk">
                 </div>
                 <div class="s10_flex_item">
-                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/Energizer_logo.png" alt="energizer">
+                    <img src="<?php bloginfo('template_url')?>/assets/images/Energizer_logo.png" alt="energizer">
                 </div>
                 <div class="s10_flex_item">
-                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/baseus.png" alt="baseus">
+                    <img src="<?php bloginfo('template_url')?>/assets/images/baseus.png" alt="baseus">
                 </div>
                 <div class="s10_flex_item">
-                    <img src="http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/images/1200px-Lexar.png" alt="Lexar">
+                    <img src="<?php bloginfo('template_url')?>/assets/images/1200px-Lexar.png" alt="Lexar">
                 </div>
 
             </div>

@@ -243,7 +243,7 @@ function iclinic_banner1_callout($wp_customize){
     'default' => 'ثبت نام و ثبت ایراد دستگاه  >'
   ));
 
-  $wp_customize -> add_control(new WP_Customize_Control($wp_customize , 'iclinic-banner1-callout-text-control',
+  $wp_customize -> add_control(new WP_Customize_Control($wp_customize , 'iclinic-banner1-callout-button-control',
   array(
     'label'    => 'Button',
     'section'  => 'iclinic-banner1-callout-secction',
@@ -489,5 +489,32 @@ function iclinic_blog_callout($wp_customize){
 }
 add_action('customize_register' , 'iclinic_blog_callout');
 
+//----------------------------------------------------------------------------------------
+function _theme_customize_register($wp_customize){
+  $prefix = ".prefix_";
+  $classes = array(
+    "iclinic-header-callout-image",
+    "iclinic-header-callout-headline",
+    "iclinic-header-callout-title",
+    "iclinic-header-callout-text",
+    "iclinic-banner1-callout-image",
+    "iclinic-blog-callout-image1",
+    "iclinic-blog-callout-image2",
+    "iclinic-blog-callout-image3"
+  );
+  
+  foreach ($classes as $class) {
+    $wp_customize->selective_refresh->add_partial($class, array(
+      "setting"=>array($class),
+      "selector" => $prefix.$class,
+      "container_inclusive"=>false,
+      "render_callback" => function() use ($class){
+        echo get_theme_mod($class);
+      }
+    ));
+  }
+}
+
+add_action("customize_register", "_theme_customize_register");
 
 ?>
