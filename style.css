@@ -936,3 +936,172 @@ body {
     padding: 20px 30px 20px 35px;
 }
 
+
+
+/* -------------------------------- contact Us Page ------------------------------- */
+/* ---------------------------------- section 1 ----------------------------------*/
+
+#contact_section1{
+    margin-bottom: 115px;
+}
+
+#cu_main_title h2{
+    margin-top: 80px;
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    /* font-weight: 900; */
+    font-size: 36px;
+    line-height: 56px;
+    font-weight: bolder;
+    align-items: center;
+    color: #000000;
+}
+
+.scrolling-wrapper{
+	overflow-x: auto;
+
+
+}
+
+.card-block{
+	height: 376px;
+    width: 376px;
+	background-color: #fff;
+	border: none;
+	background-position: center;
+	background-size: cover;
+	transition: all 0.2s ease-in-out !important;
+	border-radius: 24px;
+}
+
+.card-block:hover{
+	transform: translateY(-5px);
+	box-shadow: none;
+	opacity: 0.9;
+}
+
+
+#cu_flex_container{
+    padding: 0;
+    margin-top:57px;
+    margin-bottom: 82px;
+    margin-left: 204px;
+    margin-right: 204px;
+    list-style: none;
+    /* border: 1px solid silver; */
+    -ms-box-orient: horizontal;
+    justify-content: center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+}
+
+#cu_flex_container .flex-item{
+    border: 0.5px solid #e9e6e6;
+    border-radius: 16px;
+    background-color: white;
+    padding: 0px;
+    width: 376px;
+    height: 376px;
+    margin: 24px 16px 0px 16px;
+    align-items: center;
+}
+
+#cu_flex_container .flex-item .overlay{
+    border: 0.5px solid #e9e6e6;
+    border-radius: 16px;
+    background-color: white;
+    padding: 0px;
+    width: 360px;
+    height: 64px;
+    margin-top: -32px;
+    margin-right: 8px;
+    box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.12);
+}
+
+#cu_flex_container .flex-item .overlay #P_name{
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #000000;
+    margin-top: 5px;
+}
+
+#cu_flex_container .flex-item .overlay #P_role{
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #B7B6B6;
+    margin-top: -16px;
+}
+
+#cu_flex_container .flex-item .overlay:hover{
+	transform: translateY(-5px);
+	box-shadow: none;
+}
+
+#cu_text1{
+    margin-top: 82px;
+}
+#cu_text1 h6{
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 51px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #212121;
+}
+#cu_text1 p{
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 37px;
+    text-align: right;
+    color: #474747;
+}
+
+#cu_text2 summary,#cu_text2_p{
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    display: flex;
+    text-align: right;
+    color: #212121;
+    padding: 20px;
+}
+
+#cu_text2 .flex-container{
+    margin-top:28px;
+    margin-bottom: 28px;
+    list-style: none;
+    border: 1px solid #F8F7F7;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.04);
+    border-radius: 12px;
+    -ms-box-orient: horizontal;
+    justify-content: right;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+}
