@@ -10,33 +10,52 @@
     <main>
         <section id="contact_section1">
             <div class="row text-center" id="cu_main_title">
-                <h2>
-                    تیم حرفه ای اپل آی کلینیک
+                <h2 class="prefix_iclinic-contactus-callout-headline">
+                    <?php echo get_theme_mod('iclinic-contactus-callout-headline');?>
                 </h2>
             </div>
            
             <div class="flex-container" id="cu_flex_container">
-                <div class="flex-item">
-                    <img src="<?php bloginfo('template_url')?>/assets/images/Frame107.png" alt="iphone1">
+                <div class="prefix_iclinic-contactus-callout-image1 flex-item ">
+
+                    <?php if(wp_get_attachment_url(get_theme_mod('iclinic-contactus-callout-image1'))): { ?>
+                        <img src="<?php echo wp_get_attachment_url(get_theme_mod('iclinic-contactus-callout-image1'));?>" alt="person1">
+                    <?php } else: { ?>
+                        <img src="<?php bloginfo('template_url')?>/assets/images/Frame107.png" alt="person1"> 
+                    <?php } endif; ?>
+
                     <div class="overlay row">
-                        <p id="P_name">احسان جمال الدینی</p>
-                        <p id="P_role">مدیریت</p>
+                        <p id="P_name"><?php echo get_theme_mod('iclinic-contactus-callout-name1');?></p>
+                        <p id="P_role"><?php echo get_theme_mod('iclinic-contactus-callout-role1');?></p>
 
                     </div>
                 </div>
-                <div class="flex-item">
-                    <img src="<?php bloginfo('template_url')?>/assets/images/Frame107.png" alt="iphone1">
+                <div class="prefix_iclinic-contactus-callout-image2 flex-item">
+
+                    <?php if(wp_get_attachment_url(get_theme_mod('iclinic-contactus-callout-image2'))): { ?>
+                        <img src="<?php echo wp_get_attachment_url(get_theme_mod('iclinic-contactus-callout-image2'));?>" alt="person2">
+                    <?php } else: { ?>
+                        <img src="<?php bloginfo('template_url')?>/assets/images/Frame107.png" alt="person1"> 
+                    <?php } endif; ?>
+
                     <div class="overlay row">
-                        <p id="P_name">ایمان جمال الدینی</p>
-                        <p id="P_role">مدیر فنی</p>
+                        <p id="P_name"><?php echo get_theme_mod('iclinic-contactus-callout-name2');?></p>
+                        <p id="P_role"><?php echo get_theme_mod('iclinic-contactus-callout-role2');?></p>
 
                     </div>
                 </div>
-                <div class="flex-item">
-                    <img src="<?php bloginfo('template_url')?>/assets/images/Frame107.png" alt="iphone1">
+
+                <div class="prefix_iclinic-contactus-callout-image3 flex-item">
+
+                    <?php if(wp_get_attachment_url(get_theme_mod('iclinic-contactus-callout-image3'))): { ?>
+                        <img src="<?php echo wp_get_attachment_url(get_theme_mod('iclinic-contactus-callout-image3'));?>" alt="person3">
+                    <?php } else: { ?>
+                        <img src="<?php bloginfo('template_url')?>/assets/images/Frame107.png" alt="person1"> 
+                    <?php } endif; ?>
+
                     <div class="overlay row">
-                        <p id="P_name">حسین صالح پور</p>
-                        <p id="P_role">مدیر طراحی و تبلیغات</p>
+                        <p id="P_name"><?php echo get_theme_mod('iclinic-contactus-callout-name3');?></p>
+                        <p id="P_role"><?php echo get_theme_mod('iclinic-contactus-callout-role3');?></p>
 
                     </div>
                 </div>
@@ -44,21 +63,17 @@
 
             <div class="container">
                 <div class="row">
-                    <div id="cu_text1">
-                        <h6>درباره اپل آی کلینیک</h6>
-                        <p>
-                        اپل آی کلینیک در ابتدا کار خود را از یک فروشگاه حضوری در شهر شیراز آغاز کرد. این فروشگاه که همچنان فعالیتش پابرجا است که محصولات خود را برای طیف وسیعی از مشتریان عرضه می‌کند. با گذشت زمان و افزایش تقاضا برای خرید محصولات از ان آی سی، فرایند ارائه محصولات در سراسر ایران از طریق بسترها و راهکارهای مبتنی بر تجارت الکترونیک نیز فراهم شد و ما اکنون تحت شرکت نیکان اندیشه خلاق رایان فعالیت می کنیم.
-                        </p>
+                    <div class="prefix_iclinic-contactus-callout-txttitle1" id="cu_text1">
+                        <h6><?php echo get_theme_mod('iclinic-contactus-callout-txttitle1');?></h6>
+                        <p><?php echo get_theme_mod('iclinic-contactus-callout-text1');?></p>
                     </div>
                     
                     <div id="cu_text2">
                         <div class="flex-container">
                             <div class="row">
                                 <details>
-                                    <summary>چرا فروشگاه محصولات اپل آی کلینیک؟</summary>
-                                    <p id="cu_text2_p">
-                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
-                                    </p>                            
+                                    <summary class="prefix_iclinic-contactus-callout-txttitle2"><?php echo get_theme_mod('iclinic-contactus-callout-txttitle2');?></summary>
+                                    <p id="cu_text2_p"><?php echo get_theme_mod('iclinic-contactus-callout-text2');?></p>
                                  </details>
                             </div>
                         </div>
@@ -66,21 +81,17 @@
                         <div class="flex-container">
                             <div class="row">
                                 <details>
-                                    <summary>دیدگاه اپل آی کلینیک چیست؟</summary>
-                                    <p id="cu_text2_p">
-                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
-                                    </p>                            
+                                    <summary class="prefix_iclinic-contactus-callout-txttitle3"><?php echo get_theme_mod('iclinic-contactus-callout-txttitle3');?></summary>
+                                    <p id="cu_text2_p"><?php echo get_theme_mod('iclinic-contactus-callout-text3');?></p>
                                  </details>
                             </div>
                         </div>
 
                         <div class="flex-container">
-                            <div class="row">
+                            <div class="prefix_iclinic-contactus-callout-txttitle4 row">
                                 <details>
-                                    <summary>چرا از خدمات اپل آی کلینیک استفاده کنیم؟</summary>
-                                    <p id="cu_text2_p">
-                                    ما در فروشگاه اینترنتی ان آی سی، یک توسعه دهنده یا نماینده شرکتی دیگر نیستیم، بلکه ما صرفا فروشنده محصولات با کیفیت هستیم و تمام تلاش خود را کرده‌ایم تا بهترین خدمات فروش و عرضه محصولات با کیفیت را برای شما فراهم آوریم! همچنین ما تبلیغات نرم افزارها و محصولات خاصی را در این وب‌سایت اینترنتی انجام نمی‌دهیم، اما اعتقاد داریم که بهترین خدمات در این حوزه را ارائه می‌کنیم! ما تمام سعی خود را برای کسب رضایت مشتریان انجام می‌دهیم و تلاش کنیم تا علیرغم محدودیت‌های موجود برای شرکت‌های فعال در حوزه تجارت الکترونیک، بدون هیچ محدودیتی در این زمینه، خدماتمان را ارائه کنیم!
-                                    </p>                            
+                                    <summary class="prefix_iclinic-contactus-callout-txttitle4"><?php echo get_theme_mod('iclinic-contactus-callout-txttitle4');?></summary>
+                                    <p id="cu_text2_p"><?php echo get_theme_mod('iclinic-contactus-callout-text4');?></p>
                                  </details>
                             </div>
                         </div>
@@ -107,7 +118,6 @@
                     
                 <!-- </div> -->
             
-
         </section>
     </main>
 </body>
