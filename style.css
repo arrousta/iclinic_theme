@@ -15,8 +15,9 @@
     src: url('http://localhost/wordpress.developer/wp-content/themes/iclinic_theme/assets/fonts/Yekan-Bakh-Regular.ttf');
   } */
 
+  
 body {
-    background-color: #FAFAFA !important;
+    background-color: #FAFAFA ;
 }
  
 /* ------------------ header Section : ---------------------------- */
@@ -191,7 +192,11 @@ body {
 
 /* ----------------- index.php ----------------- */
 
-#section1{
+#main{
+    justify-content: center;
+}
+
+#section1 {
     margin: 100px;
     padding-left: 50px;
     padding-right: 50px;
@@ -199,6 +204,10 @@ body {
 
 #image_col{
     direction: ltr;
+}
+
+#image_col img{
+    width: 100%;
 }
 
 #header_title{
@@ -212,9 +221,6 @@ body {
     font-size: 48px;
     line-height: 74px;
     letter-spacing: 0.1px;
-
-    /* Color/Gray/Gray 900 */
-
     color: #212121;
 }
 
@@ -537,7 +543,7 @@ body {
 
 #section6_items_row_main{
     width: 1320px;
-    height: 648px;
+    height: auto;
     display: flex;
     text-align: center;
 }
@@ -609,8 +615,8 @@ body {
     border-radius: 5px;
     background-color: white;
     padding: 0px;
-    width: 648px;
-    height: 648px;
+    /* width: 648px; */
+    /* height: 648px; */
     margin: 0px;
     text-align: center;
     align-items: center;

@@ -61,6 +61,23 @@ body{
     display: flex;
 }
 
+@media (max-width: 800px){
+    #content_row {
+        margin: 20px 0px 20px 0px;
+    }
+    #content-posts-entry-content .flex-container {
+        flex-direction: column;
+        display: flex;
+    }
+    #content-posts-entry-content .flex-item-excerpt{
+        margin-top: 10PX;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+}
+
 #content-posts-entry-content .flex-item-img{
     margin-left: 20px;
 }

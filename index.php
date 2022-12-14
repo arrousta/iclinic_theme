@@ -7,8 +7,8 @@
         <?php if(get_theme_mod('iclinic-header-callout-display') == 'Yes') { ?>
             <section id="section1">
                 <div class="container" >
-                    <div class="row">
-                        <div class="prefix_iclinic-header-callout-image col-5" id="image_col">
+                    <div class="row" id="section1_row">
+                        <div class="prefix_iclinic-header-callout-image col-lg-5 col-12" id="image_col">
 
                             <?php if(get_theme_mod('iclinic-header-callout-image')): { ?>
                                 <img src="<?php
@@ -20,7 +20,7 @@
 
                         </div>
 
-                        <div class="col-7" id="header_title">
+                        <div class="col-lg-7 col-12" id="header_title">
                             <!-- <h1>اپل واچ سری ۷</h1> -->
                             <h1 class="prefix_iclinic-header-callout-headline"><?php echo get_theme_mod('iclinic-header-callout-headline'); ?></h1>
                             <!-- <h6 id="header_title_h6"> دنیای هوشمند در سری جدید ساعت های اپل </h6> -->

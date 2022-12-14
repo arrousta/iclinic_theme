@@ -16,6 +16,8 @@ add_theme_support( 'starter-content' );
 function iclinic_enqueue_styles() {
 
     wp_enqueue_style( 'main-css', get_stylesheet_directory_uri() . '/style.css', [], time(), 'all' );
+    wp_enqueue_style( 'mobile-css', get_stylesheet_directory_uri() . '/css/mobile.css', [], time(), 'all' );
+
   
   }
   add_action( 'wp_enqueue_scripts', 'iclinic_enqueue_styles' );

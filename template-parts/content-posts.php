@@ -14,6 +14,7 @@
     <div class="entry-content" id="content-posts-entry-content">
         <div class="flex-container">
             <div class="flex-item-img">
+                <div></div>
                 <?php the_post_thumbnail('medium'); ?>
             </div>
 

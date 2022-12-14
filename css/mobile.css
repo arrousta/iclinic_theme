@@ -1,0 +1,56 @@
+/* section 1 */
+
+@media only screen and (max-width: 600px) {
+    #section1 {
+        display: flex;
+        justify-content: center;
+        margin: 3px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    #section1_row{
+        justify-content: center;
+    }
+    #header_title h1 {
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 37px;
+        letter-spacing: 0.1px;
+    }
+    #header_title_h6 {
+        font-size: 12px;
+        line-height: 19px;
+    }
+    #header_title_p{
+        display:none;
+    }
+    #image_col{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 227px;
+        height: 227px;
+    }
+    #btn1{
+        width: 264px;
+        height: 72px;
+        margin-top: 20px;
+        margin-right: 32px;
+    }
+    #applewtch_img{
+        width: 48px;
+        height: 48px;
+    }
+    #btn_flex_item2_p1{
+        font-size: 10px;
+        line-height: 15px;
+    } 
+    #btn_flex_item2_p2{
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 19px;
+    }
+    #section2{
+        display: none;
+    }
+}
