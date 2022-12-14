@@ -11,10 +11,10 @@
 
     </header>
     
-    <div class="entry-content">
-        <div class="flex-container" style="flex-direction: row;display: flex;">
-            <div class="flex-item-img" style="margin-left: 20px; ">
-                <?php the_post_thumbnail(); ?>
+    <div class="entry-content" id="content-posts-entry-content">
+        <div class="flex-container">
+            <div class="flex-item-img">
+                <?php the_post_thumbnail('medium'); ?>
             </div>
 
             <div class="flex-item-excerpt">

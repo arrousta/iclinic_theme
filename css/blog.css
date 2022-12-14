@@ -1,0 +1,117 @@
+/* -------------------------------- home.php ------------------------------------ */
+body{
+    background-color: #FFFFFF !important;
+}
+#home_main h1{
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#row_title{
+    margin-top: 80px;
+}
+
+/* ------------------------------- content-posts.php ----------------------------- */
+
+#content_row{
+    border: solid rgb(255, 255, 255);
+    margin: 20px 0px 20px 0px;
+    padding: 25px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0px 10px 26px 7px rgba(0, 0, 0, 0.05);
+}
+
+#content_row h2{
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 51px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #212121;
+}
+
+#content_row a{
+    text-decoration: none;
+    
+}
+
+#content-posts-entry-content{
+    padding: 20px;
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 37px;
+    text-align: right;
+    color: #474747;
+}
+
+#content-posts-entry-content .flex-container{
+    flex-direction: row;
+    display: flex;
+}
+
+#content-posts-entry-content .flex-item-img{
+    margin-left: 20px;
+}
+
+
+/* --------------------------------------- content.php ------------------------------------ */
+#blog_content_flex{
+    flex-direction: column;
+    padding: 0;
+    margin-top:57px;
+    margin-bottom: 58px;
+    /* margin-left: 191px;
+    margin-right: 191px; */
+    list-style: none;
+    -ms-box-orient: horizontal;
+    justify-content: center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    width: 1346px;
+    background-color: white;
+}
+
+#blog_content_flex .flex-item-img{
+    margin: 64px 133px 58px 133px;
+}
+
+#blog_content_flex .flex-item-title{
+    margin-right: 48px;
+    margin-bottom: 16px;
+    text-align: right;
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 51px;
+    display: flex;
+    align-items: center;
+    color: #212121;
+}
+
+#blog_content_flex .flex-item-text{
+    margin-right: 20px;
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 37px;
+    text-align: right;
+    color: #474747;
+}
