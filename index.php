@@ -379,7 +379,7 @@
 
 
         <section>
-            <div class="container" id="section7">
+            <div class="container wrap" id="section7">
                 <div class="row" id="section7_row">
                     <div class="col" >
                         <a href="#">
