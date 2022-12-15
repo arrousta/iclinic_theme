@@ -1,0 +1,42 @@
+/* ------------------ header Section : ---------------------------- */
+#mainheader{
+    background: #FAFAFA;
+    border-bottom: solid rgb(202, 200, 200);
+    border-width: 0.5px;
+ 
+ }
+ 
+ 
+ #loginOutLink{
+     color: gray;
+     text-decoration: none;
+ }
+ 
+ #navMenu{
+     font-weight: 500;
+     font-family: "Yekan Bakh";
+ 
+ }
+
+ #nav_menu_container {
+    /* justify-content: center; */
+    display: flex;
+ }
+
+ #account_link{
+    justify-content: start;
+    display: flex;
+    flex-direction: row;
+ }
+
+ #bag_svg{
+    color: #424242;
+    margin-left: 31px;
+    margin-bottom: 3px;
+ }
+
+ #person_svg {
+    color: #424242;
+    margin-right: 5px;
+    margin-bottom: 3px;
+ }

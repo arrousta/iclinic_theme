@@ -1,6 +1,7 @@
 /* section 1 */
 
 @media only screen and (max-width: 600px) {
+    
     #section1 {
         display: flex;
         justify-content: center;
@@ -52,5 +53,16 @@
     }
     #section2{
         display: none;
+    }
+
+    #section7_row {
+        margin-top: 44px;
+        width: 360px;
+        height: 128px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 16px;
     }
 }

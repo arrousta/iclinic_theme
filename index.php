@@ -380,8 +380,9 @@
 
         <section>
             <div class="container wrap" id="section7">
-                <div class="row" id="section7_row">
-                    <div class="col" >
+                <div class="row text-center" id="section7_row">
+                    <img src="<?php bloginfo('template_url')?>/assets/images/Frame44.png" alt="airpods_pro_right" id="apr_img">
+                    <!-- <div class="col" >
                         <a href="#">
                             <div id="section7_flex">
                                 <div class="flex-item">
@@ -406,7 +407,7 @@
                                 </div>
                             </div>
                         </a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
 
