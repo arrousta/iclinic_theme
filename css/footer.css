@@ -15,6 +15,10 @@
     display: flex;
 }
   
+#footer #nav_footer_menu{
+    margin-left: 100px;
+    margin-right: 100px;
+}
   
 .wrap { 
     -webkit-flex-wrap: wrap;
@@ -22,16 +26,11 @@
 }  
   
 #footer_flex-item1 .flex-item {
-    /* background: tomato; */
     padding: 0px;
     width: auto;
     height: auto;
     margin: 20px 0px 20px auto;
-    
     line-height: 100px;
-    /* color: white; */
-    /* font-weight: bold;
-    font-size: 2em; */
     text-align: right;
 }
   
@@ -45,14 +44,18 @@
     line-height: 0.5;
 }
 #footer_flex-item1 li h6{
+    margin-bottom: 0px;
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 400;
     font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.1px;
+    color: #212121;
 }
 
 #footer_menu{
-   /* padding: 25px; */
-   align-items: inherit;
-   margin-right: 100px;
-   margin-left: 100px;
+   line-height: 19px;
 }
 
 #footer_menu2{
@@ -147,3 +150,37 @@
     line-height: 100px;
     text-align: right;
 }
+
+
+/* ********************************* */
+.footer_nav {
+    text-align: right;
+    padding-top: 0px !important;
+
+   
+}
+.navbar .footer_nav {
+    display: block;
+    list-style: none;
+    text-align: right;
+    padding-right: 0px;
+
+}
+
+.footer_nav a {
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: 0.1px;
+    color: #212121;
+  }
+
+  .footer_nav a:hover {
+    background: #a7a4a4;
+    color: rgb(255, 255, 255);
+  }

@@ -1,44 +1,91 @@
 
 
 
+
 <div class="container-fluid" id="footer">
-    <div class="row" id="footer_menu">
+    <div class="row" id="nav_footer_menu">
         <div>
             <ul class="flex-container wrap" id="footer_flex-item1">
                 <li class="flex-item" >
                     <h6>منو شماره یک</h6>
-                    <p>منو شماره یک</p>
-                    <p>منو شماره یک</p>
-                    <p>منو شماره یک</p>
-                    <p>منو شماره یک</p>
+                    <div class="navbar">
+                        <div class="navbar-inner navbar-footer">
+                            <?php wp_nav_menu( array(
+                            'theme_location'  => 'footer1',
+                            'menu'            => 'Footer Menu', 
+                            'container'       => 'div', 
+                            'container_class' => '', 
+                            'container_id'    => 'footer_menu',
+                            'menu_class'      => 'footer_nav', 
+                            'menu_id'         => 'footer_nav',
+                            'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>'  ) ); ?>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="flex-item">
+                    <h6>منو شماره دو</h6>
+                    <div class="navbar">
+                        <div class="navbar-inner navbar-footer">
+                            <?php wp_nav_menu( array(
+                            'theme_location'  => 'footer2',
+                            'menu'            => 'Footer Menu', 
+                            'container'       => 'div', 
+                            'container_class' => '', 
+                            'container_id'    => 'footer_menu',
+                            'menu_class'      => 'footer_nav', 
+                            'menu_id'         => 'footer_nav',
+                            'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>'  ) ); ?>
+                        </div>
+                    </div>
                 </li>
                 <li class="flex-item">
-                <h6>منو شماره یک</h6>
-                    <p>منو شماره یک</p>
-                    <p>منو شماره یک</p>
-                    <p>منو شماره یک</p>
-                    <p>منو شماره یک</p>
+                    <h6>منو شماره سه</h6>
+                    <div class="navbar">
+                        <div class="navbar-inner navbar-footer">
+                            <?php wp_nav_menu( array(
+                            'theme_location'  => 'footer3',
+                            'menu'            => 'Footer Menu', 
+                            'container'       => 'div', 
+                            'container_class' => '', 
+                            'container_id'    => 'footer_menu',
+                            'menu_class'      => 'footer_nav', 
+                            'menu_id'         => 'footer_nav',
+                            'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>'  ) ); ?>
+                        </div>
+                    </div>
                 </li>
                 <li class="flex-item">
-                    <h6>منو شماره یک</h6>
-                    <p>منو شماره یک</p>
-                    <p>منو شماره یک</p>
-                    <p>منو شماره یک</p>
-                    <p>منو شماره یک</p>
+                    <h6>منو شماره چهار</h6>
+                    <div class="navbar">
+                        <div class="navbar-inner navbar-footer">
+                            <?php wp_nav_menu( array(
+                            'theme_location'  => 'footer4',
+                            'menu'            => 'Footer Menu', 
+                            'container'       => 'div', 
+                            'container_class' => '', 
+                            'container_id'    => 'footer_menu',
+                            'menu_class'      => 'footer_nav', 
+                            'menu_id'         => 'footer_nav',
+                            'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>'  ) ); ?>
+                        </div>
+                    </div>
                 </li>
                 <li class="flex-item">
-                    <h6>منو شماره یک</h6>
-                    <p>منو شماره یک</p>
-                    <p>منو شماره یک</p>
-                    <p>منو شماره یک</p>
-                    <p>منو شماره یک</p>
-                </li>
-                <li class="flex-item">
-                    <h6>منو شماره یک</h6>
-                    <p>منو شماره یک</p>
-                    <p>منو شماره یک</p>
-                    <p>منو شماره یک</p>
-                    <p>منو شماره یک</p>
+                    <h6>منو شماره پنج</h6>
+                    <div class="navbar">
+                        <div class="navbar-inner navbar-footer">
+                            <?php wp_nav_menu( array(
+                            'theme_location'  => 'footer5',
+                            'menu'            => 'Footer Menu', 
+                            'container'       => 'div', 
+                            'container_class' => '', 
+                            'container_id'    => 'footer_menu',
+                            'menu_class'      => 'footer_nav', 
+                            'menu_id'         => 'footer_nav',
+                            'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>'  ) ); ?>
+                        </div>
+                    </div>
                 </li>
             </ul>
         </div>

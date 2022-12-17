@@ -14,11 +14,10 @@ add_theme_support( 'starter-content' );
 
 // Load in our CSS
 function iclinic_enqueue_styles() {
-
     wp_enqueue_style( 'main-css', get_stylesheet_directory_uri() . '/style.css', [], time(), 'all' );
     wp_enqueue_style( 'mobile-css', get_stylesheet_directory_uri() . '/css/mobile.css', [], time(), 'all' );
+    wp_enqueue_style( 'footer-css', get_stylesheet_directory_uri() . '/css/footer.css', [], time(), 'all' );
 
-  
   }
   add_action( 'wp_enqueue_scripts', 'iclinic_enqueue_styles' );
 
@@ -27,12 +26,16 @@ function iclinic_enqueue_styles() {
 //   'main-menu' => esc_html__( 'Main Menu', 'iclinic' ),
 // ]);
 
-
 /**
  * Register Custom Navigation Walker
  */
  register_nav_menus( array(
   'primary' => __( 'Primary Menu', 'iclinic' ),
+  'footer1' => __( 'Footer Menu 1', 'iclinic' ),
+  'footer2' => __( 'Footer Menu 2', 'iclinic' ),
+  'footer3' => __( 'Footer Menu 3', 'iclinic' ),
+  'footer4' => __( 'Footer Menu 4', 'iclinic' ),
+  'footer5' => __( 'Footer Menu 5', 'iclinic' ),
 ) );
 
 
