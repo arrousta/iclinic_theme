@@ -15,7 +15,7 @@
                                 echo wp_get_attachment_url(get_theme_mod('iclinic-header-callout-image'));?> " alt="applewatch">
                             <?php } else : { ?>
                                 <img src="<?php bloginfo('template_url')?>/assets/images/Apple_watch-series7-availability_hero_10052021_big.png" 
-                                width=536px height=435px alt="applewatch">
+                                alt="applewatch">
                             <?php } endif; ?>
 
                         </div>

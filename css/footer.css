@@ -56,6 +56,8 @@
 
 #footer_menu{
    line-height: 19px;
+   margin-right: unset;
+   margin-left: unset;
 }
 
 #footer_menu2{

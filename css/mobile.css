@@ -65,4 +65,8 @@
         align-items: center;
         border-radius: 16px;
     }
+
+    #section6_items_lcol {
+        display: none;
+    }
 }

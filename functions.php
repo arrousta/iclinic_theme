@@ -61,7 +61,7 @@ add_action( 'after_setup_theme', 'wpdocs_after_setup_theme' );
  * Register Customizer1 :  customize Site LOGO
  */
 function register_Customizer1(){
-  require_once get_template_directory() . '/customizer/Customizer1.php';
+  require_once get_template_directory() . '/customizer/customizer1.php';
 }
 add_action( 'after_setup_theme', 'register_Customizer1' );
 
@@ -70,7 +70,7 @@ add_action( 'after_setup_theme', 'register_Customizer1' );
  * Register Customizer2 :  customize Header, image and text
  */
 function register_Customizer2(){
-  require_once get_template_directory() . '/customizer/Customizer2.php';
+  require_once get_template_directory() . '/customizer/customizer2.php';
 }
 add_action( 'after_setup_theme', 'register_Customizer2' );
 
@@ -79,7 +79,7 @@ add_action( 'after_setup_theme', 'register_Customizer2' );
  * Register Customizer3 :  customize Banner1 Text and Image (section 2)
  */
 function register_Customizer3(){
-  require_once get_template_directory() . '/customizer/Customizer3.php';
+  require_once get_template_directory() . '/customizer/customizer3.php';
 }
 add_action( 'after_setup_theme', 'register_Customizer3' );
 
@@ -87,7 +87,7 @@ add_action( 'after_setup_theme', 'register_Customizer3' );
  * Register Customizer4 :  customize offer Text and Image (section 6)
  */
 function register_Customizer4(){
-  require_once get_template_directory() . '/customizer/Customizer4.php';
+  require_once get_template_directory() . '/customizer/customizer4.php';
 }
 add_action( 'after_setup_theme', 'register_Customizer4' );
 
@@ -96,7 +96,7 @@ add_action( 'after_setup_theme', 'register_Customizer4' );
  * Register Customizer5 :  customize Blog Text and Image (section 9)
  */
 function register_Customizer5(){
-  require_once get_template_directory() . '/customizer/Customizer5.php';
+  require_once get_template_directory() . '/customizer/customizer5.php';
 }
 add_action( 'after_setup_theme', 'register_Customizer5' );
 
@@ -105,7 +105,7 @@ add_action( 'after_setup_theme', 'register_Customizer5' );
  * Register Customizer6 :  Contact Us Page
  */
 function register_Customizer6(){
-  require_once get_template_directory() . '/customizer/Customizer6.php';
+  require_once get_template_directory() . '/customizer/customizer6.php';
 }
 add_action( 'after_setup_theme', 'register_Customizer6' );
 
