@@ -665,7 +665,7 @@ body {
 }
 
 /* ----------------------- section9 ---------------------------- */
-
+/* 
 #section9_flex_container{
     padding: 0;
     margin-top:96px;
@@ -771,7 +771,7 @@ body {
 
 .flex-item-btm a{
     text-decoration: none;
-    /* margin-right: 300px; */
+
 }
 
 .flex-item-btm a p{
@@ -811,7 +811,7 @@ body {
 #more9 a{
     text-decoration: none;
     color: #047857;
-}
+} */
 
 /* ---------------------------------- section 10 ---------------------------------- */
 #section10{

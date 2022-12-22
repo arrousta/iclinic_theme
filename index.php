@@ -504,29 +504,48 @@
 
         </section>
 
-        <?php if(get_theme_mod('iclinic-blog-callout-display') == 'Yes') { ?>
         <section>
-            <div class="flex-container wrap" id="section9_flex_container">
-                <div class="prefix_iclinic-blog-callout-image1 flex-item" id="section9_flex-item1">
+
+            <?php
+            // Define our WP Query Parameters
+            $the_query = new WP_Query( 'posts_per_page=3' ); 
+            ?>
+
+      <div class="flex-container wrap" id="section9_flex_container">
+
+            <?php
+              // Start our WP Query
+                while ($the_query -> have_posts()) : $the_query -> the_post();
+              // Display the Post Title with Hyperlink
+              ?>
+
+                <div class="flex-item" id="section9_flex-item1">
                     
-                    <div class="flex-container" style="flex-direction: column;display: flex;">
+                    <div class="flex-container" id="blog-flex-container">
                         <div class="flex-item-top">
 
-                            <?php if(get_theme_mod('iclinic-blog-callout-image1')): { ?>
-                                <img src="<?php
-                                echo wp_get_attachment_url(get_theme_mod('iclinic-blog-callout-image1'));
-                                ?>" alt="banner">
-                            <?php } else: { ?>
-                                <img src="<?php bloginfo('template_url')?>/assets/images/Frame-100.png" alt="frame">
-                            <?php } endif; ?>
+                        <div class="flex-container" id="flex-blog-img"> 
+                          <div >
+                            
+                            <?php the_post_thumbnail(); ?>
+
+                          </div>
 
                         </div>
-                        <div class="flex-item-btm">
-                            <!-- <h6>عنوان پست بلاگ شماره یک</h6> -->
-                            <h6><?php echo get_theme_mod('iclinic-blog-callout-headline1');?></h6>
 
-                            <!-- <p class="s9pt">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت</p> -->
-                            <p class="s9pt"><?php echo get_theme_mod('iclinic-blog-callout-text1');?></p>
+                    
+                        </div>
+
+                        <div class="flex-item-btm">
+                            <div class="s9h">
+                              <a href="<?php the_permalink() ?>"><?php the_title('<h6>', '</h6>' ); ?></a>
+                            </div>
+
+                            <div class="s9pt">
+                              <?php
+                              // Display the Post Excerpt
+                              the_excerpt(__('(more…)')); ?>
+                            </div>
 
                             <a href="<?php echo get_permalink(get_theme_mod('iclinic-blog-callout-link1')); ?>">
                                 <p>بیشتر بخوانید <span class="material-symbols-outlined">arrow_back</span></p>
@@ -536,72 +555,17 @@
                     </div>
 
                 </div>
-                <div class="prefix_iclinic-blog-callout-image2 flex-item" id="section9_flex-item2">
-
-                    <div class="flex-container" style="flex-direction: column;display: flex;">
-                        <div class="flex-item-top">
-
-                            <?php if(get_theme_mod('iclinic-blog-callout-image2')): { ?>
-                                <img src="<?php
-                                echo wp_get_attachment_url(get_theme_mod('iclinic-blog-callout-image2'));
-                                ?>" alt="banner">
-                            <?php } else: { ?>
-                                <img src="<?php bloginfo('template_url')?>/assets/images/Frame-100.png" alt="frame">
-                            <?php } endif; ?>
-
-                        </div>
-                        <div class="flex-item-btm">
-                            <h6><?php echo get_theme_mod('iclinic-blog-callout-headline2');?></h6>
-
-                            <p class="s9pt"><?php echo get_theme_mod('iclinic-blog-callout-text2');?></p>
-                            
-                            <a href="<?php echo get_permalink(get_theme_mod('iclinic-blog-callout-link2')); ?>">
-                                <p>بیشتر بخوانید <span class="material-symbols-outlined">arrow_back</span></p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="prefix_iclinic-blog-callout-image3 flex-item" id="section9_flex-item3">
-
-                    <div class="flex-container" style="flex-direction: column;display: flex;">
-                        <div class="flex-item-top">
-
-                            <?php if(get_theme_mod('iclinic-blog-callout-image3')): { ?>
-                                <img src="<?php
-                                echo wp_get_attachment_url(get_theme_mod('iclinic-blog-callout-image3'));
-                                ?>" alt="banner">
-                            <?php } else: { ?>
-                                <img src="<?php bloginfo('template_url')?>/assets/images/Frame-100.png" alt="frame">
-                            <?php } endif; ?>
-
-                        </div>
-                        <div class="flex-item-btm">
-                            <h6><?php echo get_theme_mod('iclinic-blog-callout-headline3');?></h6>
-
-                            <p class="s9pt"><?php echo get_theme_mod('iclinic-blog-callout-text3');?></p>
-                            
-                            <a href="<?php echo get_permalink(get_theme_mod('iclinic-blog-callout-link3')); ?>">
-                                <p>بیشتر بخوانید <span class="material-symbols-outlined">arrow_back</span></p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
                 
-            </div>
+                
+                <?php
+              // Repeat the process and reset once it hits the limit
+            endwhile;
+            wp_reset_postdata();
+            ?>
 
-            <div class="flex-container" style="display: flex;justify-content: center; flex-direction: row;">
-                <div class=flex-item id="more9">
-                    <a href="#">
-                        <P>مطالب بیشتر +</P>
-                    </a>
-
-                </div>
-
-            </div>
-        </section>
-        <?php } ?>
-
+      </div>
+  </section>
+  
         <section>
             <div class="flex-container wrap" id="section10" style="flex-direction: row;display: flex;">
                 <div class="s10_flex_item">

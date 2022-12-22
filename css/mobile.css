@@ -69,4 +69,45 @@
     #section6_items_lcol {
         display: none;
     }
+
+    /* ---------- Blog Posts List --------- */
+    #content_row {
+        margin: 20px 0px 20px 0px;
+        padding: unset;
+    }
+    #content-posts-entry-content .flex-container {
+        flex-direction: column;
+        display: flex;
+    }
+
+    #content-posts-entry-content .flex-item-img img{
+        margin-left: unset;
+        max-width: 100%;
+        height: auto;
+    }
+
+    #content-posts-entry-content .flex-container p{
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    /* ----------- Blog Content -------- */
+    #blog_content_flex .flex-item-img{
+        margin: 0px 0px 20px 0px;
+    }
+    #blog_content_flex .flex-item-title h2{
+        margin-right: 10px;
+        margin-bottom: 16px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 25px;
+    }
+    
+    #blog_content_flex .flex-item-text{
+        margin-right: unset;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 25px;
+    }
 }

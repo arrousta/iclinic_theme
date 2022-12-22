@@ -61,24 +61,17 @@ body{
     display: flex;
 }
 
-@media (max-width: 800px){
-    #content_row {
-        margin: 20px 0px 20px 0px;
-    }
-    #content-posts-entry-content .flex-container {
-        flex-direction: column;
-        display: flex;
-    }
-    #content-posts-entry-content .flex-item-excerpt{
-        margin-top: 10PX;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 19px;
-    }
-
+#content-posts-entry-content .flex-container p{
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: right;
+    color: #424242;
 }
 
-#content-posts-entry-content .flex-item-img{
+#content-posts-entry-content .flex-item-img img{
     margin-left: 20px;
 }
 
@@ -101,14 +94,21 @@ body{
     display: -webkit-flex;
     display: flex;
     width: 1346px;
+    max-width: 100%;
     background-color: white;
 }
 
 #blog_content_flex .flex-item-img{
+    
     margin: 64px 133px 58px 133px;
 }
 
-#blog_content_flex .flex-item-title{
+#blog_content_flex img {
+    max-width: 100%;
+    height: auto;
+}
+
+#blog_content_flex .flex-item-title h2{
     margin-right: 48px;
     margin-bottom: 16px;
     text-align: right;
@@ -131,4 +131,146 @@ body{
     line-height: 37px;
     text-align: right;
     color: #474747;
+}
+
+
+/* ----------------------------------------------------------- */
+
+#section9_flex_container{
+    padding: 0;
+    margin-top:96px;
+    margin-bottom: 140px;
+    /* margin-left: 204px;
+    margin-right: 204px; */
+    list-style: none;
+    flex-direction: row;
+    -ms-box-orient: horizontal;
+    justify-content: center;
+    display: flex;
+    align-content: flex-start;
+}
+
+#blog-flex-container {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#blog-flex-container .flex-item-top{
+    text-align: center;
+    align-items: center;
+}
+
+#flex-blog-img{
+    width: 425px;
+    height: 255px;
+}
+
+#flex-blog-img img{
+    border-radius: 8px;
+    /* width: fit-content; */
+    max-width: 100%;
+    height: min-content;
+    /* height: fit-content; */
+}
+
+#section9_flex-item1{
+    border: 0.5px solid #f2f2f2;
+    border-radius: 8px;
+    background-color: white;
+    padding: 0px;
+    width: 424px;
+    height: 485px;
+    text-align: right;
+    align-items: center;
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+.s9h h6{
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: -0.04em;
+    color: #474747;
+    margin-top: 15px;
+}
+
+.s9pt p {
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: justify;
+    color: #757575;
+}
+
+.flex-item-btm{
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 395px;
+    height: 164px;
+}
+
+/* .flex-item-btm p{
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.04em;
+    color: #757575;
+} */
+
+.flex-item-btm a{
+    text-decoration: none;
+    /* margin-right: 300px; */
+}
+
+.flex-item-btm a p{
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.04em;
+    color: #757575;
+}
+
+.material-symbols-outlined {
+    font-size: 10px ;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 100,
+    'GRAD' -25,
+    'opsz' 20;
+}
+
+#more9 {
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.04em;
+    text-align: center;
+
+    margin: 40px;
+}
+#more9 a{
+    text-decoration: none;
+    color: #047857;
 }
